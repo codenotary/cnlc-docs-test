@@ -1,39 +1,129 @@
 ---
-title: Use a Ledger (plugins and SDKs)
+title: Using the SDK to Write Ledger Transactions
 ---
 
-Ledgers are CodeNotary Ledger Compliance data containers, that hold all kinds of historical data: application data, data streams, changes from a data source, mirror copies of database data.
-CodeNotary Ledger Compliance allows to populate Ledgers via two methods:
+STATUS: INITIAL ROUGH edited:12/7/20, DB previous title "use -- ledger"
 
-- **Plugins** (e.g. CI/CD Integration, PostgreSQL plugin) - ready-made connectors for capturing/collecting data from existing sources or applications
-- **SDKs** - application bindings for several programming languages and platforms (Go, Java, Node.js, Python) that allow to send/retrieve data from existing applications and corporate systems to CodeNotary Ledger Compliance
-  for immutably storing it.
+<< Previous (_Understanding Ledger Status_)                                                         		 (_Using the SDK_)  Next>>
 
-Both solutions connect to Ledger Compliance via a gRPC endpoint, which is mapped on 80 or 443 port.
+-------
 
-Also, both cases require to set up an API key for sending/reading data and require to configure Ledger Compliance host location, gRPC port and, in case the port requires a TLS connection, the TLS credentials for 
-establishing a valid and secure connection.
+_Topics on this page..._
 
-## Plugins
+- [Downloading the SDK](#Downloading the SDK)
 
-Plugins allow for deeper integration in Ledger Compliance (see [Query Ledger data](/help/query-ledger) section).
+As part of creating a ledger in the CLC UI, you'll have an API key that you can use with the SDK to write and query transactions. 
 
-Currently Ledger Compliance supports the following plugins (with more to come):
+## Downloading the SDK
 
-- **CNLC Postgres plugin**: it allows to immutably store the WAL transaction log from an external Postgres database. It's a Change Data Capture connector for PostgreSQL that injects all database changes in a Ledger.
-- **CNLC CI/CD plugin**: it allows to notarize assets from CI/CD pipelines on a Ledger. This allows to certify that the same artifact produced by a CI/CD pipeline is being used in deployments or other pipeline stages.
+To access the SDK, click the the Developers icon on the left-hand navigation panel.
 
-For further information on how to configure and use each plugin, you can refer to the "Developer section" on the sidebar.
+Click Download SDKs
 
-## SDKs
+Select the SDK that matches your development language.
 
-SDKs allow to add Ledger Compliance support to existing applications (custom applications, corporate systems). Each programming language binding provides facilities for immutably store, read and verify data on Ledgers.
+<v-img src="/alt_devsdk_sm.png" alt="SDK menu"></v-img>
 
-Currently Ledger Compliance offers SDKs for the following languages and platforms (with more to come):
+Available SDKs
 
-- **Go**
-- **Node.js**
-- **Java** or any JVM language
-- **Python**
+##### SDK Language Support
 
-For further information on how to configure and use each SDK, you can refer to the "Developer section" on the sidebar.
+The following integrations are available:
+
+* Java
+* .Net
+* Python
+* Go
+* Node.js
+
+**Plugins**
+
+* PostgreSQL Change Data Capture
+* CI/CD digital asset notarization
+
+## Using the SDK
+
+Because there are only a few core function calls in the SDK, integration with your own code is simple.
+
+### What's in the SDK?
+
+Samples and libraries
+
+### Important concepts
+
+The SDK provides methods to get data from a ledger, set data (a key-value pair).
+
+There are actually three variations on both get and set -- a plain vanilla version, a safe version of each, and a batch version.
+
+The server default port is 3324.
+
+### Method reference 
+
+connect
+
+set
+
+get
+
+safeSet
+
+safeGet
+
+setBatch
+
+getBatch
+
+scan
+
+history
+
+
+
+### Creating the client
+
+Start by initializing the client. 
+
+##### What you'll need
+
+The first step is to instantiate a LC client. You only need one 
+
+- API Key (created in the UI)
+
+- Server IP address 
+
+- port number 
+
+##### Initializing the connection
+
+Create a ``client`` object and use the ```connect()``` method to authenticate with the Ledger Compliance Server.
+
+```python
+import LedgerCompliance.client
+
+apikey="yosvyhwo00elzqznteetslalaalspeuvtsgl"
+host="192.168.nnn.nnn"
+port=3324
+
+client=LedgerCompliance.client.Client(apikey,host,port)
+client.connect()
+```
+
+### Basic ledger transactions -- using get and set
+
+Once the connection is in place, you can use the ```set``` method to store key/value pairs, and the ```get``` method to retrieve the data:
+
+```python
+client.set(b"key", b"value")
+value=client.get(b"key")
+```
+
+>  :information_source:**NOTE** that the value is serialized with a timestamp, so you can always tell when the insert was made.
+
+| [<< Previous](/help/manage-ledger) |        [Next>>](*) |
+| ---------------------------------- | -----------------: |
+| *Managing  Ledgers*                | *Querying Ledgers* |
+
+-------
+
+
+
