@@ -172,7 +172,8 @@ export default {
      * Doc: https://nuxtjs.org/guides/configuration-glossary/configuration-router
      */
     router: {
-        middleware: []
+        middleware: [],
+        base: process.env.NODE_ENV !== 'production' ? '/' : '/cnlc-docs-test/'
     },
 
     /**
