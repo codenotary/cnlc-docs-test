@@ -48,7 +48,7 @@ export default {
             return this.svg ? 'svg' : 'png';
         },
         getPath () {
-            return `/images/logo/logo${this.text && !this.icon ? '_text' : ''}`;
+            return `images/logo/logo${this.text && !this.icon ? '_text' : ''}`;
         },
         getIcon () {
             return this.icon ? '_icon' : '';
