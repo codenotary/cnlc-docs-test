@@ -1,62 +1,99 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+    <i-layout id="default-layout">
+        <Banner
+            v-if="banner && banner.show"
+            :title="banner && banner.title"
+            :subtitle="banner && banner.subtitle"
+        />
+        <i-layout-header id="layout-header" class="_padding-0" :class="{ 'with-banner': banner.show }">
+            <navbar />
+        </i-layout-header>
+        <i-layout vertical>
+            <sidebar :class="{ 'with-banner': banner.show }" />
+            <i-layout-content id="layout-content" :class="{ mini, collapsed, 'with-banner': banner.show }">
+                <i-container fluid>
+                    <i-row>
+                        <i-column>
+                            <nuxt />
+                        </i-column>
+                    </i-row>
+                </i-container>
+            </i-layout-content>
+        </i-layout>
+    </i-layout>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<script>
+import { mapGetters } from 'vuex';
+import { VIEW_MODULE, SIDEBAR_COLLAPSED, SIDEBAR_MINI, BANNER, PATCH_RESTARTING } from '@/store/view/constants';
+import LayoutMixin from '@/mixins/LayoutMixin';
+
+export default {
+    name: 'DefaultLayout',
+    mixins: [LayoutMixin],
+    computed: {
+        ...mapGetters(VIEW_MODULE, {
+            collapsed: SIDEBAR_COLLAPSED,
+            mini: SIDEBAR_MINI,
+            banner: BANNER,
+            patchRestarting: PATCH_RESTARTING
+        })
+    }
+}
+</script>
+
+<style lang="scss">
+@import "~@inkline/inkline/src/css/config";
+@import "~@inkline/inkline/src/css/mixins";
+
+html,
+body,
+#__nuxt,
+#__layout {
+    height: 100%;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
+#default-layout {
+    height: 100%;
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+    #layout-header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 9999;
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+        &.with-banner {
+            top: $spacer-3;
+        }
+    }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+    .sidebar-wrapper {
+        &.with-banner {
+            top: $spacer-3;
+        }
+    }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+    #layout-content {
+        padding-top: calc(#{$spacer-4} + #{$spacer});
+        padding-bottom: $spacer;
+        background: $body-background-light;
+
+        > .container {
+            padding-bottom: $spacer;
+        }
+
+        &.with-banner {
+            padding-top: calc(#{$spacer-7} + #{$spacer});
+        }
+
+        &.mini:not(.collapsed) {
+            padding-left: $spacer-4;
+        }
+
+        @include breakpoint-up(lg) {
+            padding-left: 269px;
+        }
+    }
 }
 </style>

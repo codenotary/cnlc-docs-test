@@ -1,43 +1,192 @@
 export default {
-  // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr: false,
+    /*
+    ** Ssr propery
+    ** Doc: https://nuxtjs.org/guides/configuration-glossary/configuration-ssr
+    */
+    ssr: false,
 
-  // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+    /*
+    ** Nuxt target
+    ** See https://nuxtjs.org/api/configuration-target
+    */
+    target: 'static',
 
-  // Global page headers (https://go.nuxtjs.dev/config-head)
-  head: {
-    title: 'dasdasdasdasdasda',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+    /*
+    ** Server property
+    ** See https://nuxtjs.org/api/configuration-server
+    */
+    server: {
+        host: '0.0.0.0',
+        port: 8081
+    },
+
+    /*
+    ** Devtools enabled
+    ** See https://https://nuxtjs.org/api/configuration-srcdir
+    */
+    devtools: true,
+
+    /*
+    ** Headers of the page
+    ** See https://nuxtjs.org/api/configuration-head
+    */
+    head: {
+        title: process.env.npm_package_name || '',
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+        ],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        ]
+    },
+
+    /*
+    ** Global CSS
+    */
+    css: [
+        '~/assets/style.scss'
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
 
-  // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-  ],
+    /*
+    ** Plugins to load before mounting the App
+    ** https://nuxtjs.org/guide/plugins
+    */
+    plugins: [
+        { src: '~/plugins/axios' },
+        { src: '~/plugins/vue-toasted', mode: 'client' },
+        { src: '~/plugins/fontawesome' }
+    ],
 
-  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [
-  ],
+    /*
+    ** Auto import components
+    ** See https://nuxtjs.org/api/configuration-components
+    */
+    components: true,
 
-  // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+    /*
+    ** Nuxt.js dev-modules
+    */
+    buildModules: [
+        // Doc: https://github.com/nuxt-community/eslint-module
+        '@nuxtjs/eslint-module',
+        // Doc: https://github.com/nuxt-community/stylelint-module
+        '@nuxtjs/stylelint-module'
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-  ],
+    ],
 
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-  ],
+    /*
+    ** Nuxt.js modules
+    */
+    modules: [
+        '@nuxtjs/style-resources',
+        // Doc: https://axios.nuxtjs.org/
+        // '@nuxtjs/axios',
+        // Doc: https://auth.nuxtjs.org/api/auth.html
+        // '@nuxtjs/auth',
+        // Doc: https://content.nuxtjs.org/
+        '@nuxt/content',
+        // Doc: https://github.com/potato4d/nuxt-client-init-module
+        'nuxt-client-init-module',
+        // Doc: https://i18n.nuxtjs.org/
+        'nuxt-i18n',
+        // Doc: https://inkline.io/docs/introduction/installation/nuxt
+        '@inkline/nuxt',
+        // Doc: https://github.com/vaso2/nuxt-fontawesome
+        ['nuxt-fontawesome', {
+            component: 'fa',
+            imports: [
+                {
+                    set: '@fortawesome/free-brands-svg-icons',
+                    icons: ['faGithub', 'faGitlab', 'faGoogle']
+                },
+                {
+                    set: '@fortawesome/free-regular-svg-icons',
+                    icons: [
+                        'faChartBar',
+                        'faCalendarAlt'
+                    ]
+                },
+                {
+                    set: '@fortawesome/free-solid-svg-icons',
+                    icons: [
+                        'faBan',
+                        'faBell',
+                        'faCaretDown',
+                        'faCheck',
+                        'faCheckCircle',
+                        'faChevronLeft',
+                        'faChevronRight',
+                        'faCircle',
+                        'faCodeBranch',
+                        'faCog',
+                        'faCopy',
+                        'faDatabase',
+                        'faDownload',
+                        'faEnvelope',
+                        'faExclamationCircle',
+                        'faExclamationTriangle',
+                        'faFile',
+                        'faFileAlt',
+                        'faFolderOpen',
+                        'faHistory',
+                        'faInfoCircle',
+                        'faKey',
+                        'faList',
+                        'faLock',
+                        'faQuestionCircle',
+                        'faRedo',
+                        'faTasks',
+                        'faTh',
+                        'faThLarge',
+                        'faTimesCircle',
+                        'faTrash',
+                        'faTrashAlt',
+                        'faSave',
+                        'faSearch',
+                        'faSpinner',
+                        'faUser',
+                        'faUserCircle'
+                    ]
+                }
+            ]
+        }]
+    ],
 
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {
-  }
+    /**
+     * Set up internationalization
+     * Doc: https://nuxtjs.org/examples/i18n
+     */
+    i18n: {
+        locales: [
+            { code: 'en', iso: 'en-US', file: 'en.js' }
+        ],
+        langDir: 'i18n/',
+        lazy: true,
+        defaultLocale: 'en'
+    },
+
+    /**
+     * Set authenticated as default middleware
+     * Doc: https://nuxtjs.org/guides/configuration-glossary/configuration-router
+     */
+    router: {
+        middleware: []
+    },
+
+    /**
+     * Import variable overrides
+     */
+    styleResources: {
+        scss: ['~/assets/variables.scss']
+    },
+
+    /**
+     * Configure content module
+     */
+    content: {
+        dir: 'pages'
+    }
 }
+

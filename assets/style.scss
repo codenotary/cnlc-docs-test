@@ -1,0 +1,250 @@
+@import '~@inkline/inkline/src/css/config';
+@import '~@inkline/inkline/src/css/mixins';
+@import 'variables';
+@import 'style/fonts';
+@import 'style/sub-navbar';
+
+.toasted-container {
+    &.top-right {
+        top: 79px !important;
+        right: 16px !important;
+    }
+
+    .toasted {
+        border-radius: 4px !important;
+        font-weight: inherit !important;
+        font-family: inherit !important;
+        box-shadow: none !important;
+
+        &.success {
+            background-color: $color-success !important;
+        }
+
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.form-group {
+    .form-label {
+        font-weight: 600;
+    }
+}
+
+.status-card {
+    .body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+    }
+
+    .svg-inline--fa {
+        font-size: 32px;
+        margin-right: 1rem;
+    }
+
+    &.-short {
+        .body {
+            min-height: 60px;
+        }
+    }
+
+    .subtitle {
+        font-size: 80%;
+        margin-top: -2px;
+        color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.v-select {
+    min-width: 280px;
+
+    &.vs--open {
+        min-width: 280px;
+    }
+
+    .vs__dropdown-toggle {
+        padding: 4px 4px 8px 4px;
+        border-color: $border-color-light;
+        border-radius: 6px;
+
+        .vs__search {
+            &::placeholder {
+                color: $text-muted;
+            }
+        }
+    }
+}
+
+.card {
+    .header {
+        background: white !important;
+    }
+}
+
+.query-form-card {
+    > .header {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+        .item {
+            padding: 0.75rem 1.5rem !important;
+            border-bottom: 2px solid transparent;
+            transition: color 0.3s ease, border 0.3s ease;
+            cursor: pointer;
+
+            &.nuxt-link-exact-active,
+            &.-active {
+                color: $color-primary;
+                border-bottom-color: $color-primary;
+            }
+
+            &:hover,
+            &:focus {
+                color: $color-primary;
+            }
+        }
+    }
+
+    > .body {
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+    }
+}
+
+.datatable-wrapper {
+    position: relative;
+
+    .table-wrapper {
+        overflow: auto;
+        min-height: 400px;
+        background: white;
+    }
+
+    .datatable {
+        td {
+            vertical-align: middle;
+        }
+    }
+
+    .footer-wrapper {
+        position: absolute;
+        width: 100%;
+    }
+
+    .sortable-icon {
+        margin-left: 1rem;
+    }
+}
+
+.readonly-copy-form {
+    .form-input-group {
+        .form-input-prepend {
+            .button {
+                min-width: 140px;
+
+                &.-disabled {
+                    opacity: 1 !important;
+                }
+            }
+
+            .svg-inline--fa {
+                margin-right: 0.5rem;
+            }
+        }
+
+        .form-input > input[readonly] {
+            background: white !important;
+        }
+    }
+}
+
+.alerts-collapsible {
+    overflow: hidden;
+    border-radius: 6px;
+    border-color: $border-color-light !important;
+
+    .item {
+        > .header {
+            background: white !important;
+        }
+
+        &.-active > .header {
+            border-bottom: 1px solid $border-color-light !important;
+        }
+    }
+
+    .datatable-wrapper {
+        margin-bottom: 4rem;
+    }
+}
+
+.alerts-card {
+    > .body {
+        padding-bottom: 5rem !important;
+    }
+}
+
+.datepicker-input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid $border-color-light;
+    border-radius: $border-radius-base * 2;
+
+    &:focus {
+        border-color: $color-primary;
+        outline: 0;
+    }
+
+    + svg {
+        display: block;
+        position: absolute;
+        top: 0.75rem;
+        right: 0.75rem;
+        color: $text-muted;
+    }
+}
+
+.datepicker-input-wrapper {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+
+    @include breakpoint-down(sm) {
+        margin-top: $spacer;
+    }
+}
+
+.row.-same-height-columns {
+    > .column {
+        display: flex;
+        align-items: stretch;
+        width: 100%;
+
+        > * {
+            flex: 1;
+        }
+    }
+}
+
+.datatable-no-data-message {
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+}
+
+.no-prefix-message {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.form-group.vertical-input-group:not(.-inline) {
+    display: flex;
+    flex-direction: column;
+}

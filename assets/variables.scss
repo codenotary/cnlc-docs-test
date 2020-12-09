@@ -1,0 +1,21 @@
+$color-primary: #244484;
+$color-primary-light: lighten($color-primary, 15%);
+$color-secondary: #5d65b9;
+
+$border-radius-base: 6px;
+$border-radius: (
+    md: 6px
+);
+
+$body-background-light: #e9ecef;
+
+$border-radius-base: 3px;
+$font-size-base: 1.1rem;
+
+$navbar-padding-base: 12px 0;
+//$button-padding-base: $spacer * 0.5 $spacer * 1.5;
+
+$icomoon-font-family: "cnlc" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-history: "\e900";
