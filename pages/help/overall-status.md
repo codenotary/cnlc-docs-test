@@ -6,7 +6,7 @@ STATUS: INITIAL REVISIONS edited:12/6/20, DB previous title "Home -- Overall Sta
 
 ---
 
-The *Home* page appears immediately after login. It displays multiple indicators of system-wide status -- ledgers' status (like total instances and tamper alerts), and system indicators like total transactions posted, resource usage, and pending system messages.
+The *Home* page appears immediately after user login. It displays multiple indicators of system-wide status -- ledgers' status (like total instances and tamper alerts), and system indicators like total transactions posted, resource usage, and pending system messages.
 
 The left-hand navigation panel provides links to every top-level page in the UI.
 
@@ -21,17 +21,16 @@ _Topics on this page..._
 
 1. **Tampering Check**  
 
-   The ??Ledger Compliance stack?? continually monitors entries for signatures of tampering -- data or cryptographic inconsistencies.  While *tampering* may indicate that someone intentionally changed data, it may also just mean there is a hardware or software fault. 
+   The Ledger Compliance stack continually monitors entries for signatures of tampering -- data or cryptographic inconsistencies.  While *tampering* may indicate the data was intentionally changed, it may also just signal a hardware or software fault. 
+   ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_msg_notamper.png)
 
    ###### Messages
 
    _No tampering detected_  
 
-   This is the default message, indicating all ledgers have passed tests.
+   This is the default message, indicating all ledgers have passed tamper tests.
 
-   <v-img src="/alt_msg_notamper_sm.png" alt="No tampering detected"></v-img>
-
-    _Tampering detected_ 
+   _Tampering detected_ 
    Indicates the the cryptographic proof is invalid and data not consistent. This requires immediate attention.
 
    Please contact CodeNotary support if you need assistance troubleshooting a tampering message.
@@ -46,7 +45,7 @@ _Topics on this page..._
 
    Be sure to monitor messages frequently.
    
-   <v-img src="/Home_messages.png" alt="Messages"></v-img>
+   
    
 3. **Ledger count**  Shows the current number of ledgers defined in the system, both active and inactive. 
 
@@ -55,12 +54,11 @@ _Topics on this page..._
    <v-img src="/Home_ledger_total.png" alt="Ledger count"></v-img>
 
 4. **+ Add ledger**  Quick link to create a new Ledger.
-
-   <v-img src="/add_ledger_btn.png" alt="Add a new ledger"></v-img>
+   ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_Add_ledger_btn_sm.png)
 
 5. **Writes over time**  Indicates the total number of entries written to any ledger in the last 6 hours.
 
-   <v-img src="/Home_write_events.png" alt="write events"></v-img>
+   
 
 6. **Disk usage**  Displays a bar graph of the free and used storage space for both system and ledger data.
 
@@ -68,9 +66,7 @@ _Topics on this page..._
 
 ## Navigation
 
-The navigation panel on the left side of the screen provides links to every top-level page in the system, and is available on all pages.
-
-<v-img src="/alt_navbar_plain.png" alt="disk usage"></v-img>
+The navigation panel on the left side of the screen appears on every page. It provides links to every top-level page in the system, and is available on all pages.
 
 To minimize the navigation panel, click the **<** icon on the bottom edge.
 
@@ -78,9 +74,28 @@ To minimize the navigation panel, click the **<** icon on the bottom edge.
 
 The top-level pages and subpages are organized as follows:
 
-Ledgers
 
-Managing
+
+
+
+Home
+
+Ledgers
+A tabular view of all ledgers configured in the system. Lets you add a new ledger, search ledgers by name, and select individual ledgers to see stats , generate new API keys, or perform various functions.
+
+Query Ledger
+
+Audit Report
+
+Manage
+
+Users
+
+Messages
+
+Help
+
+Developer Section
 
 TODO
 

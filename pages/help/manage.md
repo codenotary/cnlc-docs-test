@@ -1,73 +1,110 @@
 ---
-title: Manage CodeNotary Ledger Compliance
+title: Managing the Appliance 
 ---
 
-## Email notification
+##### STATUS: Prefinal DRAFT 12/15/20
 
-<v-img src="/manage-email.png" alt="Email"></v-img>
+-------
+The Manage page provides a set of administration tools to help you manage the CNLC platform.
 
-CodeNotary Ledger Compliance can use email notification to update and alert you
+###### _Topics on this page..._
 
-1. **Notification recipient** type the email addresses
-2. and click **Add recipient**
-3. Configure **SMTP settings** for Ledger Compliance to send emails to the notification recipients
+[The Manage page](#the-Manage-page)
 
-## Logging
+[Using management tools](#using-management-tools)
 
-You can configure your Syslog target here, in the format *protocol://Syslog-Target:Port*.
+## The Manage page
 
-<v-img src="/manage-syslog.png" alt="Syslog"></v-img>
+All system admin functions, from backup to logging and licensing, are available under tabs on the *Manage* page.
 
-Example: `udp://mysyslogserver:514`
+##### System management tools 
 
+| Tab                    | Action                                                     |
+| ---------------------- | ---------------------------------------------------------- |
+| Email notifications    | Configure outbound email notifications of system messages. |
+| Logging                | Export or read system logs.                                |
+| License                | Apply or update your CNLC user license.                    |
+| Backup                 | Set automatic ledger backups.                              |
+| Maintenance            |                                                            |
+| Appliance  Information |                                                            |
+| Patching               |                                                            |
+| TLS configuration      |                                                            |
 
-## License
+All options open a simple text form that lets you enter changes. 
 
-Without any license, CodeNotary Ledger Compliance runs in the Free edition, only supporting a single Ledger.
+## Using management tools
 
-Please add the License Key here, either by copy paste (1) or file upload (2).
+The options available under each tab are discussed in more detail below.
 
-<v-img src="/manage-license.png" alt="License"></v-img>
+#### Email notifications
 
+Configure outbound email notifications of system messages.
 
-## Backup
+#### Logging
 
-CodeNotary Ledger Compliance can backup all configuration and Ledger data on the appliance. 
+Define the URL, including port number, where system logs should be forwarded.
 
-<v-img src="/manage-backup.png" alt="Backup"></v-img>
+Press the **Save changes** button after modifying the text. 
+![](assets\images\alt_logging_dlog.png)
 
-You can either **schedule backups** (1) or create an **on demand backup** (2).
+#### License
 
-All backups can be found on the appliance in the `/srv/volumes/backup` directory. 
+Lets you apply or update your CNLC user license.
 
-Please contact support@codenotary.com if you need to restore any backup. Due to security reasons we don't provide an UI based restore.
+You can paste the license string directly into the text box, or click the Select license file icon to load it from your local drive.
 
-## Maintenance
+Click the **Update license** button when you're done.
+![](assets\images\alt_lic_dlog.png)
 
----
+#### Backup
 
-> **Please use these operations carefully!**
+To set automatic ledger backups at a specified interval, click the **Manage scheduled backup** button.
 
----
-
-Under the **Maintenance** tab you can **reboot** (1) the appliance or enable the **maintenance mode**.
-
-Enabling Maintenance mode puts CodeNotary Ledger Compliance into read-only mode, prohibiting any data ingestion. 
-
-<v-img src="/manage-maint.png" alt="Maintenance"></v-img>
-
-
-## Appliance information
-
-Find all current component versions of CodeNotary Ledger Compliance here. These are useful when selecting updates or working with the CodeNotary support.
-
-<v-img src="/manage-info.png" alt="Appliance Information"></v-img>
+To create a backup now, click the **Create an on-demand backup** button.
 
 
-## Patching
+![](assets\images\alt_bakup_dlog.png)
 
-Any new CodeNotary Ledger Compliance software patch is installed using the **Start patch upload** button. After selecting the patch file, the patch is uploaded to the appliance and can be installed as a next step.
 
-<v-img src="/manage-patch.png" alt="Patch Management"></v-img>
 
-Please be aware that an appliance patch is rebooting the appliance.
+After clicking Manage scheduled backup, the form below opens:
+
+Set the backup interval, and enter your password to validate the change, then click the **Apply backup policy** button.
+![](assets\images\alt_bakupsched_dlog.png)
+
+#### Maintenance
+
+This tab let's you reboot the platform, or put the system into maintenance mode to block SDK access while server maintenance tasks are performed.
+
+To reboot, click the **Reboot appliance** button.
+
+If maintenance mode is currently off, the only other option is to turn it on (inhibit ledger access) by clicking the **Turn ON maintenance mode** button. After maintenance is complete, click the **Turn OFF maintenance mode** button.
+![](assets\images\alt_maint_dlog.png)
+
+#### Appliance  Information
+
+This tab displays current system status. 
+
+ 
+
+#### Patching
+
+From the *Patching* tab you can apply a software patch from CodeNotary.
+
+If CodeNotary sends you a patch file, click the **Start patch upload** button to open a file dialog and select it from your local drive. Only .zip, .rar, or .tar.gz files are valid.
+
+ ![](assets\images\alt_patch_dlog.png)
+
+#### TLS configuration
+
+Configure TLS.
+
+![]()
+
+
+
+| [<< Previous](messages)      |      |
+| ---------------------------- | ---: |
+| *Messages and Notifications* |      |
+
+

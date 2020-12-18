@@ -1,35 +1,70 @@
 ---
-title: Audit report
+title: Generating Audit Reports
 ---
 
-It's important to create audit reports from time to time to prove that the data within a Ledger has not been tampered and is stored secure and verifiable.
-CodeNotary Ledger Compliance offers the audit report functionality individually for each Ledger (main menu: Ledgers) or in the main menu **Audit Report** as a central function.
+-------
+Audit reports let you trace time-stamped events in the system for analyzing usage, reporting to leadership, or to support provision of information that may be required by regulators.
 
-**Audit report**
+###### _Topics on this page..._
 
-<v-img src="/audit-report-1.png" alt="Audit Ledger"></v-img>
+- [Generating audit reports](#generating-audit-reports)
 
+- [Reading the audit report](#reading-the-audit-report)
 
-## Generate reports
+## Generating audit reports 
 
-The generated audit reports are always notarized by CodeNotary Ledger Compliance and can be verified by the instance that produced the report.
-
-1. **Time range**: select the time range for the audit report
-
-2. **Generate report**: Generate a pdf audit report based on the selected time frame
-
-3. **Download**: download the pdf report
+A link to the *Audit report* page is available from the main navigation bar. It displays a list of previously generated auto reports, which the platform maintains as internal files.
 
 
-## PDF report
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_aud_rept_main.png)
 
-<v-img src="/audit-report-pdf.png" alt="PDF report"></v-img>
+When you generate a new audit report, it's added to the tabular view, and you can download it, or open the PDF directly.
 
-Every CodeNotary Ledger Compliance appliance has its own identity and the pdf is notarized by it.
-The audit report contains
+#### To generate a system-wide audit report
 
-* Identity information
-* Creation date
-* Time range
-* Ledger entry details
-* Instance status and statistics
+1. Go to the *Audit report* page. 
+2. Select how far back, from today, the report should include data for.  You can select time units of hours, days, months, or years from the dropdown. Then select the number of those time units the report should go back to. 
+3. Click the **Generate report** button in the upper right. The report is created as a file in the system. It will appear at the end of the tabular display after generation. 
+4. Click the **Download** button ![](assets\images\alt_dnload_icn.png) in the far right column to download it as a PDF file.
+
+#### To generate an audit report for a single ledger
+
+1. Go to the *Ledgers* page. 
+2. Select the desired ledger from the Ledgers display. The Ledger dashboard appears.
+3. Click on the *Audit report* tab. The audit report interface appears. You can select a different ledger from the dropdown menu in the upper left.
+4. Select how far back, from today, the report should include data for.  You can select time units of hours, days, months, or years from the dropdown. Then select the number of those time units the report should go back to. 
+5. Click the **Generate report** button in the upper right. The report is created as a file in the system. It will appear at the end of the tabular display after generation. 
+6. Click the **Download** button ![](assets\images\alt_dnload_icn.png) in the far right column to download it as a PDF file. 
+
+## Reading the Audit report
+
+Audit reports are created as PDF files. The content includes a title page, a list of audit entries, and a CNLC system status report.
+
+##### Title page
+
+The first page includes a unique id for the report, a sequential *Audit Report* number, the start and end dates for which data is included, and the date the report was generated.
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_lcompli_top_rept.png)
+
+##### Log entries
+
+Below the title page is the list of all logged system events for the designated period. 
+
+
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_lcompli_mid_rept.png)
+
+##### System status
+
+The bottom of the report shows selected KPIs and system stats at the time the audit was run.
+
+
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_lcompli_bot_rept.png)
+
+
+
+| [<< Previous](query-ledger) | [Next>>](user-management) |
+| --------------------------- | ------------------------: |
+| *Querying a Ledger*         |         *User management* |
+
+-------
+
+

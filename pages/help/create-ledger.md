@@ -1,69 +1,91 @@
 ---
-title: Create a Ledger
+title: Creating a Ledger
 ---
 
-The Ledgers page is the place to manage and create Ledger. We mainly cover the Ledger creating here, please check the Manage Ledger part for existing Ledger.
+-------
 
-**Ledger Overview**
+The very first step in implementing a ledger is to create it in the browser-based UI.  Part of that process includes generating the secure key to use with the SDK. The key is required to access the ledger from your code
 
-<v-img src="/Ledgers_create.png" alt="Ledgers"></v-img>
+_Topics on this page..._
 
-But you can also create a new Ledger in the **Home Page**:
+- [To create a ledger](#to-create-a-ledger)
 
+- [Errors creating a ledger](#errors-creating-a-ledger)
 
-<v-img src="/Ledgers_create_home.png" alt="Home Ledger"></v-img>
+## To create a ledger
 
-**Add Ledger**
-
-1. Add ledger in both places starts a ledger creation wizard.
-
-## Ledger creation wizard
-
-Depending on the activated license you can create a limited or unlimited number of Ledgers.
-
-* Free Edition: 1 Ledger
-* Virtual Appliance Edition: 5 Ledgers
-* Physical Appliance Edition: unlimited Ledgers
-
-There are variations possible - please contact sales@codenotary.com for details.
-
-### Define Ledger
-
-The first step defines the Ledger name and the Data label that can be used to identify and query data.
-
-<v-img src="/create-ledger-step1.png" alt="Define Ledger"></v-img>
-
-1. **Ledger name**: the Ledger name needs to be unique for the whole CodeNotary Ledger Compliance instance. We recommend avoiding special characters. 
-
-2. ** Data Labelling**: you can define multiple labels for the Ledger. Labels are meant for enhancing the Ledger identity or combining Ledgers as functional groups. Examples are creating 2 Ledgers with different names, but a label production. 
-
-3. ** Add Label**: make sure to either press ENTER or click the + button to add labels
+New ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add ledger** button. 
 
 
-### Define API Key
+![](assets\images\alt_ledger_plain.png)
 
-API keys are the most important setting for a Ledger, as they are used to access a Ledger programmatically either using SDKs or Plugins. The API Key name is used to simplify the identification, as the API key itself is a UID.
-Please make sure to use unique API key names and only use normal characters (a-z, A-Z, 0-9).
+Creating a ledger takes just a few steps -- name your ledger, add optional tags, and generate an API key.
 
-<v-img src="/create-ledger-step2.png" alt="Define API Key"></v-img>
+1. **Navigate to the *Ledger Page***  From the left-side navigation bar, select **Ledger** . The _Ledger_ page opens.
 
-1. **API Key name**: Please make sure to use unique API key names and only use normal characters (a-z, A-Z, 0-9).
+2. Click the **+ Add ledger** button. The *Define Ledger* panel opens.
+   <img src="assets\images\alt_panell_defineledger.png" style="zoom:70%;" />
+
+3. **Enter a unique Ledger name** in the *Ledger name* field. 
+   Your ledger name appears in tabular views.  It must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  Note that you have the option to change the ledger name at any time.
+
+4. **Add Data Labels**  (_optional_) Under *Data Labelling* you can create one or more labels to associate with the ledger.  Enter a plain-text label and click + or hit the Enter key to add it.
+
+   Click the X on any label to remove it.
+
+   Labels are user-defined tags you can use to help categorize, group or otherwise track identifying aspects of the ledger. The remain associated with the ledger as metadata.
+
+   Click the **Next step** button when you're ready to continue. The *Define API key* panel opens.
+
+   *Click the **Previous step** button to return to the Define Ledger* panel
+   <img src="assets\images\alt_panel_definekey_sm.png" style="zoom:80%;" />
+
+5. **Enter a unique name for the API Key ** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  
+
+   The key name is simply an identifier that allows you to select it in other contexts.
+
+6. Click the **Next step** button when you're ready to continue. 
+
+   The *Summary* panel opens. 
+
+   > :information_source:**NOTE**  If you have exceeded the total number of ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors creating a ledger](errors-creating-a-ledger) below.) 
+
+   Click the **Previous step** button to return to the *Define API key* panel. 
+
+## Errors creating a ledger
+
+A red error message may pop up If the system can't validate or process an entry, or if your action exceed limits set by your user license.
+
+Most error messages explain in detail what the problem is. 
+
+##### Illegal characters
+
+Most text fields in the UI will accept numbers and letters, as well as dash and underscore. Be sure to remove punctuation and spaces to ensure your text is validated.
+
+##### Duplicate name
+
+All ledger names and API key names must be unique across the entire system. Rename the ledger if this happens.
+
+##### License error
+
+##### ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_err_lic.png)
+
+CodeNotary offers a variety of licensing options.
+
+> :information_source: **License Options** 
+>
+> - **Free Edition**: *1 Ledger*
+> - **Virtual Appliance Edition**: *5 Ledgers*
+> - **Physical Appliance Edition**: *unlimited Ledgers*
+>
+> Please contact [sales@codenotary.com](mailto:sales@codenotary.com) for help finding the right license for your needs.
 
 
-### Summary
 
-You're ready to go and the Ledger has been created successfully.
+| [<< Previous](overall-status) | [Next>>](manage-ledger) |
+| ----------------------------- | ----------------------: |
+| *Home -- System Status*       |     *Managing a Ledger* |
 
-<v-img src="/create-ledger-step3.png" alt="Summary"></v-img>
-
-1. **API key**: this is the API key that can be used with any CodeNotary Ledger Compliance SDK or plugins
-
-2. **Clipboard**: copies the API key to your clipboard
-
-3. **Download API Key**: Downloads the API key information as a json file
-
-4. **Done or Connect your applications**: *Go to Ledger* navigates to the Ledger overview, *Connect your applications* navigates your to the Developers section, where you can find more information about the SDK or Plugins.
-
-
+-------
 
 

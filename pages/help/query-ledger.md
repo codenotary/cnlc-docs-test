@@ -1,65 +1,57 @@
 ---
-title: Query Ledger data
+title: Querying a Ledger
 ---
 
-Especially for Auditors it's important to query the data within a Ledger without the need to access the application itself.
-CodeNotary Ledger Compliance offers the Ledger query individually for each Ledger (main menu: Ledgers) or in the main menu **Query Ledger** as a central function.
+-------
+From the *Query Ledger* page you can search and filter ledger entries based on a search string, an API key, and a time frame.
 
-**Query Ledger**
+###### _Topics on this page..._
 
-<v-img src="/query-ledger-1.png" alt="Query Ledger"></v-img>
+- [The Query Ledger page](#the-query-ledger-page)
 
+- [Running a query](#running-a-query)
 
-## Query
+- [Query results tools](query-results-tools)
 
-When querying a Ledger, please keep in mind, that version 2 of CodeNotary Ledger Compliance only supports a Key-based filter and not a Value-based (yet).
-Therefore, you can either search for a key prefix or a substring of the Key.
+## The Query Ledger page
 
-1. **Ledger name**: select the Ledger you want to query
+There are three tabs on the *Query Ledger* page. The default tab is *Query*, where the search form is. The *Recent Queries* shows all the most recent queries run by any user. You can optionally save queries. Those are displayed under the *Saved Queries* tab. 
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_ldgr_main.png)
 
-2. **API Key name**: select the API key that has been used to write data into the Ledger and you want to query. The little blue box shows the data type (SDK, CICD, Postgres).The data type defines the output structure of the result.
+## Running a query
 
-3. **Save**: Save your current query to be used later again
-
-4. **Filter**: Run the query using the selected filter attributes
-
-5. **Key or Key prefix**: search for a key prefix or a substring of the key
-
-6. **Time range**: select the time range for the data result
-
-7. **Rows limit**: limit the number of returned entries. You can also select to filter by tampered, non tampered entries.
-
-### Query result
-
-<v-img src="/query-ledger-2.png" alt="Query Ledger result"></v-img>
-
-When running the Query, you get the results in a structured view (can change based on API key type).
-
-1. **Tampered**: every entry in Ledger Compliance is continuously cryptographically verified. Green = verifiable, Red = potential Tampering detected
-
-2. **Details**: show the details of the entry
-
-3. **Key history**: show the complete value history of the selected key
-
-4. **Search**: search for substrings in the query result (key and value is supported)
-
-5. **Export**: export the query result
+Run queries from the *Query* tab on the *Query Ledgers* page. The form at the top of the page lets you select filter parameters, run the query, and save parameters for later reuse.
 
 
-## Recent queries
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_ldgr_wgt_annot.png)
 
-All recent queries during the current session can be found in the **Recent queries** tab.
+#### To run a query
 
-<v-img src="/query-ledger-recent.png" alt="Recent queries"></v-img>
+1. Select the ledger from the ledger dropdown.
+2. Select the API key from the dropdown. (the blue icon indicates the type, SDK, CI/CD, Postgres)
+3. Enter a key or key prefix in the key field. This is the look-up key for a given k-v pair ledger entry.
+4. Enter the timeframe by clicking the calendar icon, then selecting *relative* or *absolute* time range, and entering the desired dates or durations. 
+5. Select the (maximum) number of rows the query should return.
+6. From this same dialog you can also toggle whether the query should return entries tagged as tampered or not tampered. Click the **Apply** button.
+   ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_entryfilt_dlg.png)
+7. Click the **Filter** button to run the query.
 
-1. **Apply**: Click to execute the selected query
+## Query results tools
 
+The UI provides additional tools to save, search, and download your query results.
 
-## Saved queries
+###### Save query parameters for reuse
 
-All queries that have been saved using the save icon (**3**) can be found under the **Saved queries** tab.
+You can save the values of query fields by clicking the **disk**  button.
 
-<v-img src="/query-ledger-saved.png" alt="Saved queries"></v-img>
+###### Searching query results
 
-1. **Apply**: Click to execute the saved query
+A search tool appears after you run a query, unless no ledger entries were returned.
 
+###### Download query results
+
+After running a query, you can click the **download** button to save a csv version of the results to your local hard drive.
+
+| [<< Previous](using-ledger) | [Next>>]((use-audit-reports)) |
+| --------------------------- | ----------------------------: |
+| *Using the SDK*             |    *Generating Audit Reports* |
