@@ -7,23 +7,27 @@ From the *Query Ledger* page you can search and filter ledger entries based on a
 
 ###### _Topics on this page..._
 
-- [The Query Ledger page](#the-query-ledger-page)
+- [The Query Ledger page](#/help/the-query-ledger-page)
 
-- [Running a query](#running-a-query)
+- [Running a query](#/help/running-a-query)
 
-- [Query results tools](query-results-tools)
+- [Query results tools](/help/query-results-tools)
 
 ## The Query Ledger page
 
 There are three tabs on the *Query Ledger* page. The default tab is *Query*, where the search form is. The *Recent Queries* shows all the most recent queries run by any user. You can optionally save queries. Those are displayed under the *Saved Queries* tab. 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_ldgr_main.png)
+
+<v-img src="/alt_query_ldgr_main.png" alt="" align="left"></v-img>
+![](assets\images\alt_query_ldgr_main.png)
 
 ## Running a query
 
 Run queries from the *Query* tab on the *Query Ledgers* page. The form at the top of the page lets you select filter parameters, run the query, and save parameters for later reuse.
 
+<v-img src="/alt_query_ldgr_wgt_annot.png" alt="" align="left"></v-img>
 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_ldgr_wgt_annot.png)
+
+![](assets\images\alt_query_ldgr_wgt_annot.png)
 
 #### To run a query
 
@@ -33,8 +37,9 @@ Run queries from the *Query* tab on the *Query Ledgers* page. The form at the to
 4. Enter the timeframe by clicking the calendar icon, then selecting *relative* or *absolute* time range, and entering the desired dates or durations. 
 5. Select the (maximum) number of rows the query should return.
 6. From this same dialog you can also toggle whether the query should return entries tagged as tampered or not tampered. Click the **Apply** button.
-   ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_entryfilt_dlg.png)
-7. Click the **Filter** button to run the query.
+   <v-img src="/alt_query_entryfilt_dlg.png" alt="" align="left"></v-img>
+7. 
+   Click the **Filter** button to run the query.
 
 ## Query results tools
 
@@ -52,6 +57,6 @@ A search tool appears after you run a query, unless no ledger entries were retur
 
 After running a query, you can click the **download** button to save a csv version of the results to your local hard drive.
 
-| [<< Previous](using-ledger) | [Next>>]((use-audit-reports)) |
-| --------------------------- | ----------------------------: |
-| *Using the SDK*             |    *Generating Audit Reports* |
+| [<< Previous](/help/using-ledger) | [Next>>](/help/use-audit-reports) |
+| --------------------------------- | --------------------------------: |
+| *Using the SDK*                   |        *Generating Audit Reports* |

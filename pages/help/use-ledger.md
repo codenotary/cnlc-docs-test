@@ -6,11 +6,12 @@ title: Introduction to the SDK
 
 _Topics on this page..._
 
-- [Downloading the SDK](#Downloading the SDK)
-- [Resources in the SDK](#resources-in-the-sdk)
-- [Getting started](#getting-started)
+- [What can you do with the SDK?](#/help/what-can-you-do-with-the-SDK-?)
+- [Resources provided](#/help/resources-provided)
+- [Getting started](#/help/getting-started)
+- [Downloading the SDK](#/help/Downloading the SDK)
 
-This is an introduction to using the SDK. The zip package for each SDK contains a readme.md file with specific instructions for install and using it. 
+This is an introduction to using the SDK. The .zip package for each SDK contains a readme.md file with specific instructions for install and using it. 
 
 As part of creating a ledger in the CNLC UI, you'll create an API key that you can use with the SDK to manage query transactions. 
 
@@ -32,7 +33,8 @@ The SDK for each supported language is available for download as a zip file from
 
 Subfolders include examples, libraries, and a readme.md file that provides instructions for initial installation, notes on instantiating the client, and using the available methods to interact with your ledgers.
 
-- Samples folder Each supported language includes samples that demonstrate use of available methods in multiple contexts.
+- Samples folder 
+  Each supported language includes samples that demonstrate use of available methods in multiple contexts.
 
 - Libraries
 
@@ -46,7 +48,7 @@ The first step is to instantiate a LC client. You only need one
 
 - Server IP address 
 
-- port number (typically 3324 but check you implementation)
+- port number (typically 3324 but check your implementation)
 
 ## Getting started 
 
@@ -69,7 +71,9 @@ Available methods are provided by the client object you initialize in STEP 3.
 To access the SDK, click the the Developers icon on the left-hand navigation panel.
 
 Click Download SDKs
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_devsdk_sm.png)
+
+<v-img src="/alt_devsdk_sm.png" alt="" align="left"></v-img>
+![](assets\images\alt_devsdk_sm.png)
 
 Select the SDK that matches your development language.
 
@@ -90,9 +94,9 @@ The following integrations are available:
 
 
 
-| [<< Previous](manage-ledger) |    [Next>>](query) |
-| ---------------------------- | -----------------: |
-| *Managing  Ledgers*          | *Querying Ledgers* |
+| [<< Previous](/help/manage-ledger) | [Next>>](/help/query-ledger) |
+| ---------------------------------- | ---------------------------: |
+| *Managing  Ledgers*                |           *Querying Ledgers* |
 
 -------
 

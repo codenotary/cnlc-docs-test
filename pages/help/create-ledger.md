@@ -4,17 +4,18 @@ title: Creating a Ledger
 
 -------
 
-The very first step in implementing a ledger is to create it in the browser-based UI.  Part of that process includes generating the secure key to use with the SDK. The key is required to access the ledger from your code
+The very first step in implementing a ledger is to create it in the browser-based UI.  Part of that process includes generating the secure key to use with the SDK. The key is required to access the ledger from your code. 
 
 _Topics on this page..._
 
-- [To create a ledger](#to-create-a-ledger)
+- [To create a ledger](#/help/to-create-a-ledger)
 
-- [Errors creating a ledger](#errors-creating-a-ledger)
+- [Errors creating a ledger](#/help/errors-creating-a-ledger)
 
 ## To create a ledger
 
 New ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add ledger** button. 
+<v-img src="/alt_ledger_plain.png" alt="" align="left"></v-img>
 
 
 ![](assets\images\alt_ledger_plain.png)
@@ -24,8 +25,10 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 1. **Navigate to the *Ledger Page***  From the left-side navigation bar, select **Ledger** . The _Ledger_ page opens.
 
 2. Click the **+ Add ledger** button. The *Define Ledger* panel opens.
-   <img src="assets\images\alt_panell_defineledger.png" style="zoom:70%;" />
+   <v-img src="/alt_panell_defineledger.png" alt="" align="left"></v-img>
 
+   ![](assets\images\alt_panell_defineledger.png)
+   
 3. **Enter a unique Ledger name** in the *Ledger name* field. 
    Your ledger name appears in tabular views.  It must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  Note that you have the option to change the ledger name at any time.
 
@@ -38,7 +41,13 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
    Click the **Next step** button when you're ready to continue. The *Define API key* panel opens.
 
    *Click the **Previous step** button to return to the Define Ledger* panel
-   <img src="assets\images\alt_panel_definekey_sm.png" style="zoom:80%;" />
+   <v-img src="/alt_panel_definekey_sm.png" alt="" align="left"></v-img>
+
+
+   ![](assets\images\alt_panel_definekey_sm.png)
+
+
+   
 
 5. **Enter a unique name for the API Key ** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  
 
@@ -48,7 +57,11 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 
    The *Summary* panel opens. 
 
-   > :information_source:**NOTE**  If you have exceeded the total number of ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors creating a ledger](errors-creating-a-ledger) below.) 
+   ---
+
+   **NOTE**  If you have exceeded the total number of ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors creating a ledger](#/help/errors-creating-a-ledger) below.) 
+
+   ---
 
    Click the **Previous step** button to return to the *Define API key* panel. 
 
@@ -72,19 +85,19 @@ All ledger names and API key names must be unique across the entire system. Rena
 
 CodeNotary offers a variety of licensing options.
 
-> :information_source: **License Options** 
->
-> - **Free Edition**: *1 Ledger*
-> - **Virtual Appliance Edition**: *5 Ledgers*
-> - **Physical Appliance Edition**: *unlimited Ledgers*
->
-> Please contact [sales@codenotary.com](mailto:sales@codenotary.com) for help finding the right license for your needs.
+**License Options** 
+
+- **Free Edition**: *1 Ledger*
+- **Virtual Appliance Edition**: *5 Ledgers*
+- **Physical Appliance Edition**: *unlimited Ledgers*
+
+Please contact [sales@codenotary.com](mailto:sales@codenotary.com) for help finding the right license for your needs.
 
 
 
-| [<< Previous](overall-status) | [Next>>](manage-ledger) |
-| ----------------------------- | ----------------------: |
-| *Home -- System Status*       |     *Managing a Ledger* |
+| [<< Previous](/help/overall-status) | [Next>>](/help/manage-ledger) |
+| ----------------------------------- | ----------------------------: |
+| *Home -- System Status*             |           *Managing a Ledger* |
 
 -------
 

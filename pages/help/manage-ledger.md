@@ -8,12 +8,12 @@ This section describes how to manage an existing Ledger using the features offer
 
 _Topics on this page..._
 
-- [Ledgers page](#ledgers-page)
-- [Ledger management features](#ledger-management-features)
+- [Ledgers page](#/help/ledgers-page)
+- [Ledger management features](#/help/ledger-management-features)
 
 ## Ledgers page
 
-The *Ledgers* page displays a searchable, paginated table of all ledgers in the system.
+The *Ledgers* page displays a searchable (by name), paginated table of all ledgers in the system.
 
 The top-level *Ledgers* page lists all the ledgers currently defined in the system, along with usage information.
 
@@ -27,8 +27,8 @@ Clicking on a ledger name takes you to its Dashboard page.
 
 When you click a ledger from the Ledgers page, the Ledger Dashboard opens.
 
-Like the [Home page](overall-status), the Ledger Dashboard displays status, messages and selected KPIs. But instead of system-wide information, it displays only that specific to the selected ledger. 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_ledger_dash.png)
+Like the [Home page](/help/overall-status), the Ledger Dashboard displays status, messages and selected KPIs. But instead of system-wide information, it displays only that specific to the selected ledger. 
+![](assets\images\alt_ledger_dash.png)
 
 Other Ledger statistics are shown on the page, such as the number of Ledger entries, Ledger size on disk, last data insertion time and the number of active data sources.
 
@@ -38,20 +38,20 @@ Ledger management functions are accessed from the tabs along the top of the page
 
 1. The Ledger selector dropdown in the upper left lets you switch from one ledger to another.
 2. Tampering alerts and messages are displayed if the ledger has been tampered with or if there any diagnostic messages related to the current ledger. Clicking on the messages box will take you to the
-   [Messages and Notifications](messages) tab.
+   [Messages and Notifications](/help/messages) tab.
 3. *Writes over time* shows the most recent write operations in the current ledger.
 
 ## Ledger management features
 
 After a ledger is created, you can change its name, enable/disable it, generate new API keys or delete keys no longer in use. To access management tools, select the appropriate tab at the top of the page.
 
-| Function                                  | Tab               |                                                          |
-| ----------------------------------------- | ----------------- | -------------------------------------------------------- |
-| [Managing API keys](#managing-API-keys)   | *API Keys*        | View existing API keys for the selected ledger.          |
-| [Querying a ledger](#querying-a-ledger)   | *Query Ledger*    | Query and transactions in the selected ledger.           |
-| [Audit report](#audit-report)             | *Audit Report*    | Create an audit report of events for the current ledger. |
-| [Renaming a ledger](#renaming-a-ledger)   | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
-| [Exporting a ledger](#exporting-a-ledger) | *Export*          | Export ledger data to a JSON file.                       |
+| Function                                        | Tab               |                                                          |
+| ----------------------------------------------- | ----------------- | -------------------------------------------------------- |
+| [Managing API keys](#/help/managing-API-keys)   | *API Keys*        | View existing API keys for the selected ledger.          |
+| [Querying a ledger](#/help/querying-a-ledger)   | *Query Ledger*    | Query and transactions in the selected ledger.           |
+| [Audit report](#/help/audit-report)             | *Audit Report*    | Create an audit report of events for the current ledger. |
+| [Renaming a ledger](#/help/renaming-a-ledger)   | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
+| [Exporting a ledger](#/help/exporting-a-ledger) | *Export*          | Export ledger data to a JSON file.                       |
 
 #### Managing API keys
 
@@ -59,25 +59,37 @@ The *API Keys* tab list every API configured for the selected ledger --  its nam
 
 By clicking the **Actions** icon you can add new keys, get the value for existing keys, delete a key or show the Signer ID (for CI/CD keys).
 
-> :warning: ​**Caution**: Deleting an API Key here will prevent any application currently using it from authenticating with the API.
+---
+
+**Caution**: Deleting an API Key here will prevent any application currently using it from authenticating with the API.
+
+---
 
 To create a new API key by clicking on "Create API Key" and providing an API Key name. *Only alphanumeric characters, plus dash and underscore ('-', '_') are valid.*
 
 After creating your API key, you can copy it or download to a file on your local system.
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_apikey_gen.png)
+
+<v-img src="/alt_apikey_gen.png" alt="" align="left"></v-img>
+![](assets\images\alt_apikey_gen.png)
 
 To copy the API Key string to the clipboard, click the copy icon to the right of the key.
 
 To download the key as a file, click the **Download API Key** button.
 
-> :information_source: **NOTE** *API key value can be recovered later using the "Retrieve API Key" action in the list of a ledger API keys.*
+---
+
+**NOTE** *API key value can be recovered later using the "Retrieve API Key" action in the list of a ledger API keys.*
+
+---
 
 #### Querying a Ledger
 
-While the SDK allows you to query ledger values based on a (lookup) key, the *Query Ledger* tab lets you query ledger contents directly through the UI. The query process is is discussed in more detail on the [*Query Ledger data page*](query-ledger) .
+While the SDK allows you to query ledger values based on a (lookup) key, the *Query Ledger* tab lets you query ledger contents directly through the UI. The query process is is discussed in more detail on the [*Query Ledger data page*](/help/query-ledger) .
+
+<v-img src="/alt_query_ldgr_wgt_annot.png" alt="" align="left"></v-img>
 
 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_query_ldgr_wgt_annot.png)
+![](assets\images\alt_query_ldgr_wgt_annot.png)
 
 #### Audit report
 
@@ -85,7 +97,11 @@ Audit report lets you generate a PDF report containing the status of the current
 CodeNotary Ledger Compliance instance.
 
 Report generation requires to select start and end time of interest for displaying the relevant reporting data.
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_aud_rept_main.png)
+
+<v-img src="/alt_aud_rept_main.png" alt="" align="left"></v-img>
+
+
+![](assets\images\alt_aud_rept_main.png)
 
 ##### Running Audit Reports
 
@@ -95,12 +111,14 @@ Audit reports let you see the compete list of transactions for the selected peri
 2. Click the **Generate report** button to add a new report to the list that includes all events up to now (within the most recent 5 minutes).
 3. Click the **Download** button for that new report to save the PDF to your local system.
 
-For more about Audit reports and what they contain, see the [*Using Audit Reports* page](use-audit-reports)
+For more about Audit reports and what they contain, see the [*Using Audit Reports* page](/help/use-audit-reports)
 
 #### Renaming a Ledger
 
 The *Ledger Settings* tab lets you rename an existing ledger. 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_ldgr_set_dlg.png)
+
+<v-img src="/alt_ldgr_set_dlg.png" alt="" align="left"></v-img>
+![](assets\images\alt_ldgr_set_dlg.png)
 
 Enter the new name in the text box then click the **Update ledger** button.
 
@@ -111,11 +129,13 @@ Note that this has no effect on SDK users. It merely changes the name of the led
 The Export ledger function lets you download ledger data as a JSON file.
 
 After clicking the *Export* tab from the ledger dashboard, a list view appears, showing previous exports for the current ledger and the timeframe each represents. 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_ldgr_export_main.png)
+
+<v-img src="/alt_ldgr_export_main.png" alt="" align="left"></v-img>
+![](assets\images\alt_ldgr_export_main.png)
 
 ###### Download an existing export
 
-You can download any previously exported file again by clicking the download icon ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_dnload_icn.png) in the *Actions* column on the far right.
+You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt="" align="left"></v-img>![](assets\images\alt_dnload_icn.png) in the *Actions* column on the far right.
 
 ###### Create a new export
 
@@ -125,8 +145,8 @@ A new entry is created at the top of the list. The *Status* column indicates whe
 
 Note that larger files will take longer to create.
 
-| [<< Previous](create-ledger) | [Next>>](use-ledger) |
-| ---------------------------- | -------------------: |
-| *Creating a Ledger*          |      *Using the SDK* |
+| [<< Previous](/help/create-ledger) | [Next>>](/help/use-ledger) |
+| ---------------------------------- | -------------------------: |
+| *Creating a Ledger*                |            *Using the SDK* |
 
 

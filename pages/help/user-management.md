@@ -7,15 +7,17 @@ The *Users* page lets administrators create new users, change parameters for exi
 
 ###### _Topics on this page..._
 
-- [Creating new users](#creating-new-users)
+- [Creating new users](#/help/creating-new-users)
 
-- [Managing existing users](#managing-existing-users)
+- [Managing existing users](#/help/managing-existing-users)
 
 ## Creating new users
 
 To add a user to the system, you'll need their email address, desired user name, their role in the system and, optionally, their first and last name.
 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_usradmin_plain.png)
+<v-img src="/alt_usradmin_plain.png" alt="" align="left"></v-img>
+
+![](assets\images\alt_usradmin_plain.png)
 
 ### Role-based permissions
 
@@ -46,7 +48,9 @@ You can change any of these parameters after creating a user, provided you have 
 ## Managing existing users
 
 You can quickly change or delete a user's account from the options popup menu by clicking the gear icon in the users row. 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_usradmin_menu.png)
+
+<v-img src="/alt_usradmin_menu.png" alt="" align="left"></v-img>
+![](assets\images\alt_usradmin_menu.png)
 
 ##### User management options 
 
@@ -59,9 +63,9 @@ You can quickly change or delete a user's account from the options popup menu by
 
 All options open a simple text form that lets you enter changes. 
 
-| [<< Previous](use-audit-reports) |           [Next>>](messages) |
-| -------------------------------- | ---------------------------: |
-| *Audit Reports*                  | *Messages and Notifications* |
+| [<< Previous](/help/use-audit-reports) |     [Next>>](/help/messages) |
+| -------------------------------------- | ---------------------------: |
+| *Audit Reports*                        | *Messages and Notifications* |
 
 -------
 

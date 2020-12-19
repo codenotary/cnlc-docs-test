@@ -9,20 +9,21 @@ Users can see separate lists to distinguish active messages from those that have
 
 ###### _Topics on this page..._
 
-- [How do you know there are new messages?](#how-do-you-know-there-are-new-messages-?)
+- [How do you know there are new messages?](#/help/how-do-you-know-there-are-new-messages-?)
 
-- [The *Messages* page](#the-messages-page)
+- [The *Messages* page](#/help/the-messages-page)
 
-- [Message types](#message-types)
+- [Message types](#/help/message-types)
 
 ## How do you know there are new messages?
 
 All new messages are displayed on the *Messages* page under the *Active messages* tab. When any new messages are waiting to be read, the UI alerts users in three different locations:
 
 1. **Alert icon**![](assets\images\alt_bell_alert.png) The alert bell icon on the upper right of the status bar will display a flashing red dot above the bell.
-2. **Home page**  The messages panel on the [Home page](overall-status.md) turns red and indicates the number of messages waiting.
-   ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_msg_notif.png)
-3. **[Ledger management page](manage-ledger.md)**   For messages related to a particular ledger, the messages panel on the management page for that ledger red and indicates the number of messages waiting.
+2. **Home page**  The messages panel on the [Home page](/help/overall-status) turns red and indicates the number of messages waiting.
+   <v-img src="/alt_msg_notif.png" alt="" align="left"></v-img>
+   ![](assets\images\alt_msg_notif.png)
+3. **[Ledger management page](/help/manage-ledger)**   For messages related to a particular ledger, the messages panel on the management page for that ledger red and indicates the number of messages waiting.
 
 Additionally, the platform can see notification emails automatically through your SMTP server. Any number of recipients can be configured, and TO addresses are not constrained to users configured in the system.
 
@@ -31,6 +32,8 @@ Additionally, the platform can see notification emails automatically through you
 The *Messages* page consists of two tabs --  *Active messages* and *Acknowledged messages*. Messages listed on the *Active messages* tab have not yet been acknowledged by any user. 
 
 After a user acknowledges  a particular message, the system shifts it from the unread messages table and lists it under the Acknowledged messages tab.
+
+<v-img src="/alt_msg_main.png" alt="" align="left"></v-img>
 ![](assets\images\alt_msg_main.png)
 
 ###### Acknowledging a message
@@ -55,12 +58,10 @@ The system categorizes messages into the following types.
 
 For additional help understanding messages, please don't hesitate to contact us by email support@codenotary.com or chat with a support representative at https://codenotary.com. 
 
-| [<< Previous](user-management) |   [Next>>](manage) |
-| ------------------------------ | -----------------: |
-| *User Management*              | *Manage Appliance* |
+| [<< Previous](/help/user-management) | [Next>>](/help/manage) |
+| ------------------------------------ | ---------------------: |
+| *User Management*                    |     *Manage Appliance* |
 
 -------
-
-
 
 

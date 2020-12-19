@@ -3,15 +3,15 @@ title: Understanding the System
 ---
 
 -------
-If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  
+If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  align="left"
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Ledger Compliance?](#what-is-codenotary-ledger-compliance?)
+- [What is CodeNotary Ledger Compliance?](#/help/what-is-codenotary-ledger-compliance?)
 
-- [What are some typical use cases?](#what-are-some-typical-use-cases?)
+- [What are some typical use cases?](#/help/what-are-some-typical-use-cases?)
 
-- [Major components](#major-components)
+- [Major components](#/help/major-components)
 
 ## What is CodeNotary Ledger Compliance? 
 
@@ -57,7 +57,9 @@ Ledger Compliance uses an append-only data structure to store inserts and update
 ### User Interface
 
 The user interface is a browser-base GUI. It's where you create and manage ledgers, create API keys, view statistics, run audit reports, and access various administrative functions.
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_ledger_plain.png)
+<v-img src="/alt_ledger_plain.png" alt="" align="left"> </v-img>
+
+![](assets\images\alt_ledger_plain.png)
 
 ### SDK
 
@@ -90,7 +92,7 @@ The following integrations are available:
 
 
 
-| [<< Previous](/help) | [Next>>](overall-status) |
+| [<< Previous](/help) | [Next>>](/help/overall-status) |
 | -------------------- | -----------------------: |
 | *About Help*         |  *Home -- System Status* |
 

@@ -4,8 +4,10 @@ title: Welcome to CodeNotary Ledger Compliance!
 
 
 
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_help_sm.png)
 
-![](assets\images\alt_help_sm.png)
+<v-img src="/alt_help_sm.png" alt=""></v-img>
+
 
 
 # About Help Pages
@@ -48,18 +50,18 @@ _Writing ledger entries, querying a ledger from your applications._
   *Create a PDF showing system status and events.*
 - [User Management](/help/user-management)
   *Add, delete, or modify user access records.*
-- [Messages and Notifications](administration)
+- [Messages and Notifications](/help/administration)
   *Read critical system messages.*
 - [Manage Appliance](/help/manage)
   *A set of tools to support typical maintenance and admin tasks.*
 
-## *Ge*tting Support
+## Getting Support
 
 For additional assistance with any topic, please don't hesitate to contact us by email support@codenotary.com or chat with a support representative at https://codenotary.com.
 
 ---------------------------------
 
 Copyright © 2020 CodeNotary, Inc. All rights reserved. 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_logo.png)
+<v-img src="/alt_logo.png" alt="" align="left"> </v-img>
 
 
