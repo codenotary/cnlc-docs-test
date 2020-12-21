@@ -1,39 +1,104 @@
 ---
-title: Use a Ledger (plugins and SDKs)
+title: Introduction to the SDK
 ---
 
-Ledgers are CodeNotary Ledger Compliance data containers, that hold all kinds of historical data: application data, data streams, changes from a data source, mirror copies of database data.
-CodeNotary Ledger Compliance allows to populate Ledgers via two methods:
+-------
 
-- **Plugins** (e.g. CI/CD Integration, PostgreSQL plugin) - ready-made connectors for capturing/collecting data from existing sources or applications
-- **SDKs** - application bindings for several programming languages and platforms (Go, Java, Node.js, Python) that allow to send/retrieve data from existing applications and corporate systems to CodeNotary Ledger Compliance
-  for immutably storing it.
+_Topics on this page..._
 
-Both solutions connect to Ledger Compliance via a gRPC endpoint, which is mapped on 80 or 443 port.
+- [What can you do with the SDK?](help/use-ledger#what-can-you-do-with-the-SDK-?)
+- [Resources provided](help/use-ledger#resources-provided)
+- [Getting started](help/use-ledger#getting-started)
+- [Downloading the SDK](help/use-ledger#Downloading the SDK)
 
-Also, both cases require to set up an API key for sending/reading data and require to configure Ledger Compliance host location, gRPC port and, in case the port requires a TLS connection, the TLS credentials for 
-establishing a valid and secure connection.
+This is an introduction to using the SDK. The .zip package for each SDK contains a readme.md file with specific instructions for install and using it. 
 
-## Plugins
+As part of creating a ledger in the CNLC UI, you'll create an API key that you can use with the SDK to manage query transactions. 
 
-Plugins allow for deeper integration in Ledger Compliance (see [Query Ledger data](/help/query-ledger) section).
+## What can you do with the SDK? 
 
-Currently Ledger Compliance supports the following plugins (with more to come):
+Available methods are easy to understand and use. They are discussed in detail in the ```readme.md``` file in the SDK root.
 
-- **CNLC Postgres plugin**: it allows to immutably store the WAL transaction log from an external Postgres database. It's a Change Data Capture connector for PostgreSQL that injects all database changes in a Ledger.
-- **CNLC CI/CD plugin**: it allows to notarize assets from CI/CD pipelines on a Ledger. This allows to certify that the same artifact produced by a CI/CD pipeline is being used in deployments or other pipeline stages.
+The core methods provided are these:
 
-For further information on how to configure and use each plugin, you can refer to the "Developer section" on the sidebar.
+**connect** provides the initial authentication with the platform.
 
-## SDKs
+**set** lets you write key-value pairs to a ledger. There are several variations of set.
 
-SDKs allow to add Ledger Compliance support to existing applications (custom applications, corporate systems). Each programming language binding provides facilities for immutably store, read and verify data on Ledgers.
+**get** lets you retrieve data from a ledger. There are several variations of get.
 
-Currently Ledger Compliance offers SDKs for the following languages and platforms (with more to come):
+## Resources provided
 
-- **Go**
-- **Node.js**
-- **Java** or any JVM language
-- **Python**
+The SDK for each supported language is available for download as a zip file from here.
 
-For further information on how to configure and use each SDK, you can refer to the "Developer section" on the sidebar.
+Subfolders include examples, libraries, and a readme.md file that provides instructions for initial installation, notes on instantiating the client, and using the available methods to interact with your ledgers.
+
+- Samples folder 
+  Each supported language includes samples that demonstrate use of available methods in multiple contexts.
+
+- Libraries
+
+- Readme.md
+
+##### What you'll need
+
+The first step is to instantiate a LC client. You only need one 
+
+- API Key (created in the UI)
+
+- Server IP address 
+
+- port number (typically 3324 but check your implementation)
+
+## Getting started 
+
+Once you have at least one ledger in the UI, it's a quick few steps to accessing it from within your code.
+
+**STEP 1  Download the SDK **
+Go to the developers page and download the zip file that matches your preferred development language.
+
+**STEP 2  Install language-specific libraries**
+Unzip the file to your development environment.
+
+**STEP 3  Instantiate the client**
+Initialize and connect to your CNLC platform instance. Here's where you use the API key generated from the ledger your client is connecting to.
+
+**STEP 4  Use client methods within your code to read and write transactions**
+Available methods are provided by the client object you initialize in STEP 3.
+
+## Downloading the SDK
+
+To access the SDK, click the the Developers icon on the left-hand navigation panel.
+
+Click **Download SDKs**.
+
+<v-img src="/alt_devsdk_sm.png" alt="" align="left"></v-img>
+![](assets\images\alt_devsdk_sm.png)
+
+Select the SDK that matches your development language.
+
+##### SDK Language Support
+
+The following integrations are available:
+
+* Java
+* .Net
+* Python
+* Go
+* Node.js
+
+**Plugins**
+
+* PostgreSQL Change Data Capture
+* CI/CD digital asset notarization
+
+
+
+| [<< Previous](/help/manage-ledger) | [Next>>](/help/query-ledger) |
+| ---------------------------------- | ---------------------------: |
+| *Managing  Ledgers*                |           *Querying Ledgers* |
+
+-------
+
+
+

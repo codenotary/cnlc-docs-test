@@ -1,5 +1,22 @@
 # CNCL DOC TEST
 
+## Test locally documentation
+
+Prerequirement: install git and latest Node.js LTS version.
+
+- Put .md files in `pages/help` folder
+- Put image files in `assets/images` folder
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:8081
+$ npm run dev
+```
+
+The preview website on localhost:8081 will reflect changes everytime a .md file is updated and saved (live reload).
+
 ## Build Setup
 
 ```bash

@@ -2,40 +2,67 @@
 title: Welcome to CodeNotary Ledger Compliance!
 ---
 
-<v-img src="/image.png" alt="Help Image"></v-img>
 
-CodeNotary Ledger Compliance is a high-performance solution that provides an auditable, immutable, and cryptographically verifiable transaction ledger system.
-Ledger Compliance can be used to record every single system or application data change in tamperproof databases. That allows to maintain a complete and verifiable change history over time, that is always accessible and can be verified by any client or SDK.
 
-Ledgers are well known to record the history of financial data, but there is so much more data being produced inside an organization that needs to be stored immutably. 
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_help_sm.png)
 
-* store every update to sensitive database fields (credit card or bank account data) of an existing application database
-* CI/CD recipes to protect build and deployment pipelines
-* invoices and documents
-* digital certificates 
-* digital objects identification (digital checksum)
-* store log streams (i. e. access logs)
+<v-img src="/alt_help_sm.png" alt=""></v-img>
 
-CodeNotary Ledger Compliance upgrades your overall digital security and enables you to stay compliant with many regulations, i. e. PCI-DSS-10.
 
-In case you can't find the information you need within this help page, please don't hesitate to contact us by email support@codenotary.com or use the chat on https://codenotary.com.
 
-# Navigation 
+# About Help Pages
 
-Everything you need to know so you can use CodeNotary Ledger Compliance to its full extent.
+CodeNotary Ledger Compliance® (CNLC) is a light-weight, high-performance ledger platform. It provides two points of user access -- a browser-based UI (the CNLC UI) for creation and management of ledgers, and a straightforward SDK that allows your applications to write immutable, cryptographically verifiable transactions to your ledgers.
 
-- [Introduction](/help/introduction)
-- [Overall Status](/help/overall-status)
-- [Create a Ledger](/help/create-ledger)
-- [Manage a Ledger](/help/manage-ledger)
-- [Use a Ledger (Plugins and SDKs)](/help/use-ledger)
+These help pages address the process of creating and managing ledgers in the CNLC web-UI, as well as the use of our SDK to write and query ledger entries from your code.  
+
+The procedures for both configuration and use (through the SDK) are identical whether your instance is deployed in the cloud or on premises.  
+
+# Help Topics 
+
+
+#### Overview
+
+- [Understanding the System](/help/introduction) (_**START HERE!**_)
+  _A brief overview of key concepts._
+
+#### Ledger Management
+
+- [Home -- System Status](/help/overall-status)
+  _How to use the CNLC UI to understand the system-wide status of your ledgers._
+
+- [Creating a Ledger](/help/create-ledger)
+  _How to create a ledger in the web-based CNLC UI._
+- [Managing a Ledger](/help/manage-ledger)
+  _How to manage existing ledgers in the web-based CNLC UI._
+
+#### Ledger Transactions
+
+- [Using the SDK](/help/use-ledger)
+_Writing ledger entries, querying a ledger from your applications._
+  
 - [Query Ledger data](/help/query-ledger)
-- [Use audit reports](/help/use-audit-reports)
-- [User management](/help/user-management)
+  _Accessing existing ledger entries._
+
+#### Admin
+
+- [Generating Audit Reports](/help/use-audit-reports)
+  *Create a PDF showing system status and events.*
+- [User Management](/help/user-management)
+  *Add, delete, or modify user access records.*
 - [Messages and Notifications](/help/messages)
+  *Read critical system messages.*
 - [Manage Appliance](/help/manage)
+  *A set of tools to support typical maintenance and admin tasks.*
 
+## Getting Support
 
-Copyright © 2020 CodeNotary, Inc. All rights reserved.
-Immutable notarization for all your sensitive data. On-premise or in the cloud, easy to use tamperproof storage with cryptographic verification, processing millions of transactions a second.
+For additional assistance with any topic, please don't hesitate to contact us by email support@codenotary.com or chat with a support representative at https://codenotary.com.
+
+---------------------------------
+
+Copyright © 2020 CodeNotary, Inc. All rights reserved. 
+
+<v-img src="/alt_logo.png" alt="" align="left"> </v-img>
+
 
