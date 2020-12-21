@@ -24,7 +24,8 @@ export default {
 <style lang="scss">
 @import "~@inkline/inkline/src/css/mixins";
 @import "~@inkline/inkline/src/css/config";
-article.blog-post-page {
+
+article.help-section {
         padding-right: $spacer-4;
 
         img {
@@ -38,6 +39,29 @@ article.blog-post-page {
             width: 100%;
             margin: $spacer-2 0;
             border-collapse: collapse;
+        }
+
+        // div:nth-child(3) > div > div > div > table:last-child {
+        //     border: 4px solid green;
+        // }
+
+        div:nth-child(3) > div > div > div > table:last-of-type {
+            background: transparent;
+            border: none;
+
+            th:first-of-type, td:first-of-type {
+                width: 50%;
+                background: transparent;
+                border: none;
+                text-align: left;
+            }
+
+            th:last-of-type, td:last-of-type {
+                width: 50%;
+                background: transparent;
+                border: none;
+                text-align: right;
+            }
         }
 
         tr:nth-of-type(even) {
