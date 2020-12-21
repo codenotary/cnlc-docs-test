@@ -1,3 +1,5 @@
+import helpRoutes from './help';
+
 export default {
     /*
     ** Ssr propery
@@ -174,7 +176,25 @@ export default {
     router: {
         middleware: [],
         base: process.env.NODE_ENV !== 'production' ? '/' : '/cnlc-docs-test/'
-    },
+	},
+	
+	generate: {
+        routes: () => {
+            let paths = [];
+            if (helpRoutes) {
+                const map = Object.keys(helpRoutes);
+                if (map && map.length) {
+                    map.map((path) => {
+                        paths = [...paths, {
+                            route: `/help/${helpRoutes[path]}`,
+                            payload: path
+                        }]
+                    });                    
+                }
+			}
+            return paths;
+		}
+	},
 
     /**
      * Import variable overrides
