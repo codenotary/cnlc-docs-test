@@ -7,11 +7,17 @@ If you're new to the CodeNotary Ledger Compliance platform, taking a moment to r
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Ledger Compliance?](#what-is-codenotary-ledger-compliance)
+<nuxt-link :to="{path: '/help/introduction', hash: 'what-is-codenotary-ledger-compliance'}" v-scroll-to="{el: '#what-is-codenotary-ledger-compliance'}">
+	- What is CodeNotary Ledger Compliance?
+</nuxt-link>
 
-- [What are some typical use cases?](#what-are-some-typical-use-cases)
+<nuxt-link :to="{path: '/help/introduction', hash: 'what-are-some-typical-use-cases'}" v-scroll-to="{el: '#what-are-some-typical-use-cases'}">
+	- What are some typical use cases?
+</nuxt-link>
 
-- <a href="#major-components" name="major-components">Major components</a>
+<nuxt-link :to="{path: '/help/introduction', hash: 'major-components'}" v-scroll-to="{el: '#major-components'}">
+	- Major components
+</nuxt-link>
 
 
 ## What is CodeNotary Ledger Compliance? 
