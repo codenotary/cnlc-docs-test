@@ -3,15 +3,16 @@ title: Understanding the System
 ---
 
 -------
-If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  align="left"
+If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Ledger Compliance?](help/introducton#what-is-codenotary-ledger-compliance?)
+- [What is CodeNotary Ledger Compliance?](#what-is-codenotary-ledger-compliance)
 
-- [What are some typical use cases?](help/introducton#what-are-some-typical-use-cases?)
+- [What are some typical use cases?](#what-are-some-typical-use-cases)
 
-- [Major components](help/introducton#major-components)
+- <a href="#major-components" name="major-components">Major components</a>
+
 
 ## What is CodeNotary Ledger Compliance? 
 
@@ -33,6 +34,8 @@ The application of secure ledgers extends well beyond financial transactions. Bu
 * Store log streams (i. e. access logs)
 
 The CNLC platform provides additional security for key transactions in any business while enabling compliance with data privacy and security regulations like PCI-DSS-10.
+
+<a id="major-components" name="major-components">
 
 ## Major components
 
@@ -94,8 +97,6 @@ The following integrations are available:
 
 
 
-| [<< Previous](/help) | [Next>>](/help/overall-status) |
+<!-- | [<< Previous](/help) | [Next>>](/help/overall-status) |
 | -------------------- | -----------------------: |
-| *About Help*         |  *Home -- System Status* |
-
-
+| *About Help*         |  *Home -- System Status* | -->

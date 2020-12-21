@@ -60,25 +60,6 @@ article.help-section {
         border-collapse: collapse;
     }
 
-    div:nth-child(3) > div > div > div > table:last-of-type {
-        background: transparent;
-        border: none;
-
-        th:first-of-type, td:first-of-type {
-            width: 50%;
-            background: transparent;
-            border: none;
-            text-align: left;
-        }
-
-        th:last-of-type, td:last-of-type {
-            width: 50%;
-            background: transparent;
-            border: none;
-            text-align: right;
-        }
-    }
-
     tr:nth-of-type(even) {
         background: lighten($color-primary, 60%);
     }

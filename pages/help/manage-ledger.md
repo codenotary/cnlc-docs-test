@@ -148,8 +148,4 @@ A new entry is created at the top of the list. The *Status* column indicates whe
 
 Note that larger files will take longer to create.
 
-| [<< Previous](/help/create-ledger) | [Next>>](/help/use-ledger) |
-| ---------------------------------- | -------------------------: |
-| *Creating a Ledger*                |            *Using the SDK* |
-
-
+<prev-next prev="/help/create-ledger" next="/help/use-ledger"></prev-next>

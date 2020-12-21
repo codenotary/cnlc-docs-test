@@ -2,13 +2,9 @@
 title: Welcome to CodeNotary Ledger Compliance!
 ---
 
-
-
 ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_help_sm.png)
 
 <v-img src="/alt_help_sm.png" alt=""></v-img>
-
-
 
 # About Help Pages
 

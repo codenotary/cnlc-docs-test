@@ -149,7 +149,9 @@ export default {
                         'faSearch',
                         'faSpinner',
                         'faUser',
-                        'faUserCircle'
+						'faUserCircle',
+                        'faLongArrowAltLeft',
+                        'faLongArrowAltRight'
                     ]
                 }
             ]
