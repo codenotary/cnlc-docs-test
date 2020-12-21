@@ -7,9 +7,9 @@ The *Users* page lets administrators create new users, change parameters for exi
 
 ###### _Topics on this page..._
 
-- [Creating new users](#/help/creating-new-users)
+- [Creating new users](help/user-management#creating-new-users)
 
-- [Managing existing users](#/help/managing-existing-users)
+- [Managing existing users](help/user-management#managing-existing-users)
 
 ## Creating new users
 

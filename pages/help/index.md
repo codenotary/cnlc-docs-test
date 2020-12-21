@@ -50,7 +50,7 @@ _Writing ledger entries, querying a ledger from your applications._
   *Create a PDF showing system status and events.*
 - [User Management](/help/user-management)
   *Add, delete, or modify user access records.*
-- [Messages and Notifications](/help/administration)
+- [Messages and Notifications](/help/messages)
   *Read critical system messages.*
 - [Manage Appliance](/help/manage)
   *A set of tools to support typical maintenance and admin tasks.*
@@ -62,6 +62,7 @@ For additional assistance with any topic, please don't hesitate to contact us by
 ---------------------------------
 
 Copyright © 2020 CodeNotary, Inc. All rights reserved. 
+
 <v-img src="/alt_logo.png" alt="" align="left"> </v-img>
 
 

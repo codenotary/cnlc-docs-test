@@ -8,8 +8,8 @@ This section describes how to manage an existing Ledger using the features offer
 
 _Topics on this page..._
 
-- [Ledgers page](#/help/ledgers-page)
-- [Ledger management features](#/help/ledger-management-features)
+- [Ledgers page](help/manage-ledger#ledgers-page)
+- [Ledger management features](help/manage-ledger#ledger-management-features)
 
 ## Ledgers page
 
@@ -28,6 +28,7 @@ Clicking on a ledger name takes you to its Dashboard page.
 When you click a ledger from the Ledgers page, the Ledger Dashboard opens.
 
 Like the [Home page](/help/overall-status), the Ledger Dashboard displays status, messages and selected KPIs. But instead of system-wide information, it displays only that specific to the selected ledger. 
+
 ![](assets\images\alt_ledger_dash.png)
 
 Other Ledger statistics are shown on the page, such as the number of Ledger entries, Ledger size on disk, last data insertion time and the number of active data sources.
@@ -45,13 +46,13 @@ Ledger management functions are accessed from the tabs along the top of the page
 
 After a ledger is created, you can change its name, enable/disable it, generate new API keys or delete keys no longer in use. To access management tools, select the appropriate tab at the top of the page.
 
-| Function                                        | Tab               |                                                          |
-| ----------------------------------------------- | ----------------- | -------------------------------------------------------- |
-| [Managing API keys](#/help/managing-API-keys)   | *API Keys*        | View existing API keys for the selected ledger.          |
-| [Querying a ledger](#/help/querying-a-ledger)   | *Query Ledger*    | Query and transactions in the selected ledger.           |
-| [Audit report](#/help/audit-report)             | *Audit Report*    | Create an audit report of events for the current ledger. |
-| [Renaming a ledger](#/help/renaming-a-ledger)   | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
-| [Exporting a ledger](#/help/exporting-a-ledger) | *Export*          | Export ledger data to a JSON file.                       |
+| Function                                                    | Tab               |                                                          |
+| ----------------------------------------------------------- | ----------------- | -------------------------------------------------------- |
+| [Managing API keys](help/manage-ledger#managing-API-keys)   | *API Keys*        | View existing API keys for the selected ledger.          |
+| [Querying a ledger](help/manage-ledger#querying-a-ledger)   | *Query Ledger*    | Query and transactions in the selected ledger.           |
+| [Audit report](help/manage-ledger#audit-report)             | *Audit Report*    | Create an audit report of events for the current ledger. |
+| [Renaming a ledger](help/manage-ledger#renaming-a-ledger)   | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
+| [Exporting a ledger](help/manage-ledger#exporting-a-ledger) | *Export*          | Export ledger data to a JSON file.                       |
 
 #### Managing API keys
 
@@ -70,6 +71,7 @@ To create a new API key by clicking on "Create API Key" and providing an API Key
 After creating your API key, you can copy it or download to a file on your local system.
 
 <v-img src="/alt_apikey_gen.png" alt="" align="left"></v-img>
+
 ![](assets\images\alt_apikey_gen.png)
 
 To copy the API Key string to the clipboard, click the copy icon to the right of the key.
@@ -86,7 +88,11 @@ To download the key as a file, click the **Download API Key** button.
 
 While the SDK allows you to query ledger values based on a (lookup) key, the *Query Ledger* tab lets you query ledger contents directly through the UI. The query process is is discussed in more detail on the [*Query Ledger data page*](/help/query-ledger) .
 
+
+
 <v-img src="/alt_query_ldgr_wgt_annot.png" alt="" align="left"></v-img>
+
+
 
 
 ![](assets\images\alt_query_ldgr_wgt_annot.png)
@@ -135,7 +141,7 @@ After clicking the *Export* tab from the ledger dashboard, a list view appears, 
 
 ###### Download an existing export
 
-You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt="" align="left"></v-img>![](assets\images\alt_dnload_icn.png) in the *Actions* column on the far right.
+You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt=""></v-img>![](assets\images\alt_dnload_icn.png) in the *Actions* column on the far right.
 
 ###### Create a new export
 

@@ -8,13 +8,14 @@ The very first step in implementing a ledger is to create it in the browser-base
 
 _Topics on this page..._
 
-- [To create a ledger](#/help/to-create-a-ledger)
+- [To create a ledger](help/create-ledger#to-create-a-ledger)
 
-- [Errors creating a ledger](#/help/errors-creating-a-ledger)
+- [Errors creating a ledger](help/create-ledger#errors-creating-a-ledger)
 
 ## To create a ledger
 
 New ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add ledger** button. 
+
 <v-img src="/alt_ledger_plain.png" alt="" align="left"></v-img>
 
 
@@ -25,9 +26,12 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 1. **Navigate to the *Ledger Page***  From the left-side navigation bar, select **Ledger** . The _Ledger_ page opens.
 
 2. Click the **+ Add ledger** button. The *Define Ledger* panel opens.
-   <v-img src="/alt_panell_defineledger.png" alt="" align="left"></v-img>
-
+   
+<v-img src="/alt_panell_defineledger.png" alt="" align="left"></v-img>
+   
    ![](assets\images\alt_panell_defineledger.png)
+   
+   
    
 3. **Enter a unique Ledger name** in the *Ledger name* field. 
    Your ledger name appears in tabular views.  It must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  Note that you have the option to change the ledger name at any time.
@@ -40,14 +44,15 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 
    Click the **Next step** button when you're ready to continue. The *Define API key* panel opens.
 
-   *Click the **Previous step** button to return to the Define Ledger* panel
+   *Click the **Previous step** button to return to the Define Ledger* panel.
+
    <v-img src="/alt_panel_definekey_sm.png" alt="" align="left"></v-img>
 
 
    ![](assets\images\alt_panel_definekey_sm.png)
 
 
-   
+
 
 5. **Enter a unique name for the API Key ** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  
 
@@ -81,7 +86,9 @@ All ledger names and API key names must be unique across the entire system. Rena
 
 ##### License error
 
-##### ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_err_lic.png)
+<v-img src="/alt_err_lic.png" alt="" align="left"></v-img>
+
+##### ![](assets\images\alt_err_lic.png)
 
 CodeNotary offers a variety of licensing options.
 

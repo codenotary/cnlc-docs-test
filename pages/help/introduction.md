@@ -7,11 +7,11 @@ If you're new to the CodeNotary Ledger Compliance platform, taking a moment to r
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Ledger Compliance?](#/help/what-is-codenotary-ledger-compliance?)
+- [What is CodeNotary Ledger Compliance?](help/introducton#what-is-codenotary-ledger-compliance?)
 
-- [What are some typical use cases?](#/help/what-are-some-typical-use-cases?)
+- [What are some typical use cases?](help/introducton#what-are-some-typical-use-cases?)
 
-- [Major components](#/help/major-components)
+- [Major components](help/introducton#major-components)
 
 ## What is CodeNotary Ledger Compliance? 
 
@@ -38,9 +38,9 @@ The CNLC platform provides additional security for key transactions in any busin
 
 Whether deployed on-premises or in the cloud, CodeNotary Ledger Compliance provides you a browser-based dashboard that can be used to manage the software:
 
-* [Core platform](#core-platform)
-* [User Interface](#user-interface)
-* [SDK](#sdk)
+* [Core platform](help/introducton#core-platform)
+* [User Interface](help/introducton#user-interface)
+* [SDK](help/introducton#sdk)
 
 ### Core platform
 
@@ -60,6 +60,8 @@ The user interface is a browser-base GUI. It's where you create and manage ledge
 <v-img src="/alt_ledger_plain.png" alt="" align="left"> </v-img>
 
 ![](assets\images\alt_ledger_plain.png)
+
+
 
 ### SDK
 

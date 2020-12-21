@@ -10,8 +10,8 @@ The left-hand navigation panel provides links to every top-level page in the UI.
 
 _Topics on this page..._
 
-- [Home page indicators](#/help/home-page-indicators)
-- [Navigation](#/help/navigation)
+- [Home page indicators](help/overall-status#home-page-indicators)
+- [Navigation](help/overall-status#navigation)
 
 ## Home page indicators
 
@@ -20,6 +20,7 @@ _Topics on this page..._
 1. **Tampering Check**  
 
    The Ledger Compliance stack continually monitors entries for signatures of tampering -- data or cryptographic inconsistencies.  While *tampering* may indicate the data was intentionally changed, it may also just signal a hardware or software fault. 
+
    <v-img src="/alt_msg_notamper.png" alt="" align="right"> </v-img>![](assets\images\alt_msg_notamper.png)
 
    ###### Messages
@@ -29,8 +30,8 @@ _Topics on this page..._
    This is the default message, indicating all ledgers have passed tamper tests.
 
    _Tampering detected_ 
-Indicates the the cryptographic proof is invalid and data not consistent. This requires immediate attention.
-   
+   Indicates the the cryptographic proof is invalid and data not consistent. This requires immediate attention.
+
    Please contact CodeNotary support if you need assistance troubleshooting a tampering message.
 
    **Messages**  Pending system notification and error messages are indicated here.
@@ -55,6 +56,8 @@ Indicates the the cryptographic proof is invalid and data not consistent. This r
 
 6. **Disk usage**  Displays a bar graph of the free and used storage space for both system and ledger data.
 
+   
+   
    <v-img src="/alt_disk_usage_sm.png" alt="disk usage" align="right"></v-img>
    ![](assets\images\alt_disk_usage_sm.png)
 

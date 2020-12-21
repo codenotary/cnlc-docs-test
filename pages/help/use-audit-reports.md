@@ -7,9 +7,9 @@ Audit reports let you trace time-stamped events in the system for analyzing usag
 
 ###### _Topics on this page..._
 
-- [Generating audit reports](#/help/generating-audit-reports)
+- [Generating audit reports](help/use-audit-report#generating-audit-reports)
 
-- [Reading the audit report](#/help/reading-the-audit-report)
+- [Reading the audit report](help/use-audit-report#reading-the-audit-report)
 
 ## Generating audit reports 
 

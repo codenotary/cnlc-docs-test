@@ -7,9 +7,9 @@ The Manage page provides a set of administration tools to help you manage the CN
 
 ###### _Topics on this page..._
 
-- [The Manage page](#/help/the-manage-page)
+- [The Manage page](help/manage#the-manage-page)
 
-- [Using management tools](#/help/using-management-tools)
+- [Using management tools](help/manage#using-management-tools)
 
 ## The Manage page
 
@@ -17,16 +17,16 @@ All system admin functions, from backup to logging and licensing, are available 
 
 ##### System management tools 
 
-| Tab                                                    | Action                                                     |
-| ------------------------------------------------------ | ---------------------------------------------------------- |
-| [Email notifications](#/help/email-notifications)      | Configure outbound email notifications of system messages. |
-| [Logging](#/help/logging)                              | Export or read system logs.                                |
-| [License](#/help/license)                              | Apply or update your CNLC user license.                    |
-| [Backup](#/help/backup)                                | Set automatic ledger backups.                              |
-| [Maintenance](#/help/maintenance)                      | Restart the system, or inhibit ledger transactions.        |
-| [Appliance  Information](#/help/appliance-information) | Selected system stats.                                     |
-| [Patching](#/help/patching)                            | Upload and apply a software patch.                         |
-| [TLS configuration](#/help/tls-configuration)          | Upload TLS configuration file.                             |
+| Tab                                                         | Action                                                     |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| [Email notifications](help/manage#email-notifications)      | Configure outbound email notifications of system messages. |
+| [Logging](help/manage#logging)                              | Export or read system logs.                                |
+| [License](help/manage#license)                              | Apply or update your CNLC user license.                    |
+| [Backup](help/manage#backup)                                | Set automatic ledger backups.                              |
+| [Maintenance](help/manage#maintenance)                      | Restart the system, or inhibit ledger transactions.        |
+| [Appliance  Information](help/manage#appliance-information) | Selected system stats.                                     |
+| [Patching](help/manage#patching)                            | Upload and apply a software patch.                         |
+| [TLS configuration](help/manage#tls-configuration)          | Upload TLS configuration file.                             |
 
 All options open a simple text form that lets you enter changes. 
 

@@ -6,10 +6,10 @@ title: Introduction to the SDK
 
 _Topics on this page..._
 
-- [What can you do with the SDK?](#/help/what-can-you-do-with-the-SDK-?)
-- [Resources provided](#/help/resources-provided)
-- [Getting started](#/help/getting-started)
-- [Downloading the SDK](#/help/Downloading the SDK)
+- [What can you do with the SDK?](help/use-ledger#what-can-you-do-with-the-SDK-?)
+- [Resources provided](help/use-ledger#resources-provided)
+- [Getting started](help/use-ledger#getting-started)
+- [Downloading the SDK](help/use-ledger#Downloading the SDK)
 
 This is an introduction to using the SDK. The .zip package for each SDK contains a readme.md file with specific instructions for install and using it. 
 
@@ -70,7 +70,7 @@ Available methods are provided by the client object you initialize in STEP 3.
 
 To access the SDK, click the the Developers icon on the left-hand navigation panel.
 
-Click Download SDKs
+Click **Download SDKs**.
 
 <v-img src="/alt_devsdk_sm.png" alt="" align="left"></v-img>
 ![](assets\images\alt_devsdk_sm.png)

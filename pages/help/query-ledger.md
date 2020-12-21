@@ -7,11 +7,11 @@ From the *Query Ledger* page you can search and filter ledger entries based on a
 
 ###### _Topics on this page..._
 
-- [The Query Ledger page](#/help/the-query-ledger-page)
+- [The Query Ledger page](help/query-ledger#the-query-ledger-page)
 
-- [Running a query](#/help/running-a-query)
+- [Running a query](help/query-ledger#running-a-query)
 
-- [Query results tools](/help/query-results-tools)
+- [Query results tools](help/query-ledger#query-results-tools)
 
 ## The Query Ledger page
 
@@ -32,12 +32,19 @@ Run queries from the *Query* tab on the *Query Ledgers* page. The form at the to
 #### To run a query
 
 1. Select the ledger from the ledger dropdown.
+
 2. Select the API key from the dropdown. (the blue icon indicates the type, SDK, CI/CD, Postgres)
+
 3. Enter a key or key prefix in the key field. This is the look-up key for a given k-v pair ledger entry.
+
 4. Enter the timeframe by clicking the calendar icon, then selecting *relative* or *absolute* time range, and entering the desired dates or durations. 
+
 5. Select the (maximum) number of rows the query should return.
+
 6. From this same dialog you can also toggle whether the query should return entries tagged as tampered or not tampered. Click the **Apply** button.
+   
    <v-img src="/alt_query_entryfilt_dlg.png" alt="" align="left"></v-img>
+   
 7. 
    Click the **Filter** button to run the query.
 
@@ -47,7 +54,7 @@ The UI provides additional tools to save, search, and download your query result
 
 ###### Save query parameters for reuse
 
-You can save the values of query fields by clicking the **disk**  button.
+You can save the values of query fields by clicking the **disk** button.
 
 ###### Searching query results
 
