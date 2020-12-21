@@ -134,12 +134,11 @@ After clicking the *Export* tab from the ledger dashboard, a list view appears, 
 
 ###### Download an existing export
 
-<div class="inline-img">
-	You can download any previously exported file again by clicking the download icon&nbsp;
-	<v-img src="/alt_dnload_icn.png" alt="download" :height="32"></v-img>
-	![](assets\images\alt_dnload_icn.png)
-&nbsp;in the *Actions* column on the far right.
-</div>
+<p class="inline-img">
+	You can download any previously exported file again by clicking the download icon
+	<v-img src="/alt_dnload_icn.png" alt="download" :height="24"></v-img>
+in the *Actions* column on the far right.
+</p>
 
 ###### Create a new export
 

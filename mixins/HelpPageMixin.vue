@@ -32,10 +32,11 @@ article.help-section {
         display: grid;
         justify-self: start;
 
-        div.inline-img {
-            display: flex;
+        p.inline-img {
+            display: block;
 
             img {
+                display: inline;
                 margin: 0 $spacer-1-2 !important;
                 padding: 0 !important;
             }
