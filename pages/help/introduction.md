@@ -3,7 +3,7 @@ title: Understanding the System
 ---
 
 -------
-If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  align="left"
+If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.
 
 ###### _Topics on this page..._
 
