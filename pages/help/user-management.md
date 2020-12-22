@@ -35,11 +35,17 @@ Ledger manager  - Read-write access to user functions in the UI, but no access t
 2. Click the **Create user** button in the upper right.
 3. Complete the form by filling in the following fields:
    - User name
+   
    - email address
+   
    - password
+   
    - first name (optional)
+   
    - last name (optional)
-     ![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_updprofile_dlog.png)
+     <v-img src="/alt_updprofile_dlog.png" alt="" align="left"></v-img>
+     
+     ![](assets\images\alt_updprofile_dlog.png)
 4. Select a role from the User role drop down menu.
 5. Click the **Create user** button.
 

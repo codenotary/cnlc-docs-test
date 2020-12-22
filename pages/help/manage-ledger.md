@@ -17,7 +17,8 @@ The *Ledgers* page displays a searchable (by name), paginated table of all ledge
 
 The top-level *Ledgers* page lists all the ledgers currently defined in the system, along with usage information.
 
-<v-img src="/alt_ledger_annot.png" alt="" align="left"></v-img>
+<v-img src="/alt_ledger_annot.png" alt="disk usage" align="left"></v-img>
+
 ![](assets\images\alt_ledger_annot.png)
 
 By clicking the **Actions** icon, privileged users can enable/disable a ledger. When a ledger is disabled, SDK users cannot post transactions to it.  
@@ -30,7 +31,8 @@ When you click a ledger from the Ledgers page, the Ledger Dashboard opens.
 
 Like the [Home page](/help/overall-status), the Ledger Dashboard displays status, messages and selected KPIs. But instead of system-wide information, it displays only that specific to the selected ledger. 
 
-<v-img src="/alt_ledger_dash.png" alt="" align="left"></v-img>
+<v-img src="/alt_ledger_dash.png" alt="disk usage" align="left"></v-img>
+
 ![](assets\images\alt_ledger_dash.png)
 
 Other Ledger statistics are shown on the page, such as the number of Ledger entries, Ledger size on disk, last data insertion time and the number of active data sources.
@@ -73,6 +75,7 @@ To create a new API key by clicking on "Create API Key" and providing an API Key
 After creating your API key, you can copy it or download to a file on your local system.
 
 <v-img src="/alt_apikey_gen.png" alt="" align="left"></v-img>
+
 ![](assets\images\alt_apikey_gen.png)
 
 To copy the API Key string to the clipboard, click the copy icon to the right of the key.
@@ -90,6 +93,10 @@ To download the key as a file, click the **Download API Key** button.
 While the SDK allows you to query ledger values based on a (lookup) key, the *Query Ledger* tab lets you query ledger contents directly through the UI. The query process is is discussed in more detail on the [*Query Ledger data page*](/help/query-ledger) .
 
 <v-img src="/alt_query_ldgr_wgt_annot.png" alt="" align="left"></v-img>
+
+
+
+
 ![](assets\images\alt_query_ldgr_wgt_annot.png)
 
 #### Audit report
@@ -100,6 +107,8 @@ CodeNotary Ledger Compliance instance.
 Report generation requires to select start and end time of interest for displaying the relevant reporting data.
 
 <v-img src="/alt_aud_rept_main.png" alt="" align="left"></v-img>
+
+
 ![](assets\images\alt_aud_rept_main.png)
 
 ##### Running Audit Reports
@@ -132,15 +141,11 @@ After clicking the *Export* tab from the ledger dashboard, a list view appears, 
 <v-img src="/alt_ldgr_export_main.png" alt="" align="left"></v-img>
 ![](assets\images\alt_ldgr_export_main.png)
 
-###### Download an existing export
+##### Download an existing export
 
-<p class="inline-img">
-	You can download any previously exported file again by clicking the download icon
-	<v-img src="/alt_dnload_icn.png" alt="download" :height="24"></v-img>
-in the *Actions* column on the far right.
-</p>
+You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt=""></v-img>![](assets\images\alt_dnload_icn.png) in the *Actions* column on the far right.
 
-###### Create a new export
+##### Create a new export
 
 Click the **Export ledger** button on the upper right to create a new download that includes all current data.
 
@@ -148,4 +153,8 @@ A new entry is created at the top of the list. The *Status* column indicates whe
 
 Note that larger files will take longer to create.
 
-<prev-next prev="/help/create-ledger" next="/help/use-ledger"></prev-next>
+| [<< Previous](/help/create-ledger) | [Next>>](/help/use-ledger) |
+| ---------------------------------- | -------------------------: |
+| *Creating a Ledger*                |            *Using the SDK* |
+
+

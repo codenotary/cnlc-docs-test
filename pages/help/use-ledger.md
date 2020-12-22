@@ -6,10 +6,10 @@ title: Introduction to the SDK
 
 _Topics on this page..._
 
-- [What can you do with the SDK?](help/use-ledger#what-can-you-do-with-the-SDK-?)
+- [What can you do with the SDK?](help/use-ledger#what-can-you-do-with-the-sdk-?)
 - [Resources provided](help/use-ledger#resources-provided)
 - [Getting started](help/use-ledger#getting-started)
-- [Downloading the SDK](help/use-ledger#Downloading the SDK)
+- [Downloading the SDK](help/use-ledger#downloading-the-sdk)
 
 This is an introduction to using the SDK. The .zip package for each SDK contains a readme.md file with specific instructions for install and using it. 
 
@@ -54,7 +54,7 @@ The first step is to instantiate a LC client. You only need one
 
 Once you have at least one ledger in the UI, it's a quick few steps to accessing it from within your code.
 
-**STEP 1  Download the SDK **
+**STEP 1  Download the SDK**
 Go to the developers page and download the zip file that matches your preferred development language.
 
 **STEP 2  Install language-specific libraries**
