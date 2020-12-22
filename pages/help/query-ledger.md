@@ -52,15 +52,15 @@ Run queries from the *Query* tab on the *Query Ledgers* page. The form at the to
 
 The UI provides additional tools to save, search, and download your query results.
 
-###### Save query parameters for reuse
+##### Save query parameters for reuse
 
 You can save the values of query fields by clicking the **disk** button.
 
-###### Searching query results
+##### Searching query results
 
 A search tool appears after you run a query, unless no ledger entries were returned.
 
-###### Download query results
+##### Download query results
 
 After running a query, you can click the **download** button to save a csv version of the results to your local hard drive.
 

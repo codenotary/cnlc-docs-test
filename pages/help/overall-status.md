@@ -15,7 +15,7 @@ _Topics on this page..._
 
 ## Home page indicators
 
-<v-img src="/Home.png" alt="Home"></v-img>
+<v-img src="/alt_hp_full_dash.png" alt="dashboard" align="right"></v-img>
 
 1. **Tampering Check**  
 
@@ -38,28 +38,31 @@ _Topics on this page..._
 
    Click the indicator to view unread messages.
 
-   Messages can indicate mission critical events -- low disk space, high resource usage, authentication errors, component failures, or pending license expiration. 
+   Messages can indicate mission critical events -- low disk space, high resource usage, authentication errors, component failures, or pending license expiration. Be sure to monitor messages frequently.
 
-   Be sure to monitor messages frequently.
-
-3. **Ledger count**  Shows the current number of ledgers defined in the system, both active and inactive. 
+2. **Ledger count**  Shows the current number of ledgers defined in the system, both active and inactive. 
 
    Click the box icon to go to the *Ledgers overview* page.
 
-   <v-img src="/Home_ledger_total.png" alt="Ledger count"></v-img>
+   <v-img src="/alt_ldgr_stat.png" alt="Ledger count"></v-img>
+
+   ![](assets\images\alt_ldgr_stat.png)
 
 4. **+ Add ledger**  Quick link to create a new Ledger.
-   <v-img src="/alt_Add_ledger_btn_sm.png" alt="" align="right"> </v-img>
+   
+   <v-img src="/alt_Add_ledger_btn_sm.png" alt="" align="left"> </v-img>
 
 
 5. **Writes over time**  Indicates the total number of entries written to any ledger in the last 6 hours.
 
-6. **Disk usage**  Displays a bar graph of the free and used storage space for both system and ledger data.
+   <v-img src="/alt_wotb.png" alt="" align="left"> </v-img>
 
-   
-   
-   <v-img src="/alt_disk_usage_sm.png" alt="disk usage" align="right"></v-img>
-   ![](assets\images\alt_disk_usage_sm.png)
+   ![](assets\images\alt_wotb.png)
+
+6. **Disk usage**  Displays a bar graph of the free and used storage space for both system and ledger data. You can mouse-over the graphic for details.
+
+   <v-img src="/alt_disk_usage_e.png" alt="disk usage" align="left"></v-img>
+   ![](assets\images\alt_disk_usage_e.png)
 
 ## Navigation
 

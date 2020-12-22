@@ -3,9 +3,7 @@ title: Messages and Notifications
 ---
 
 -------
-The CNLC platform reports critical system events and display them on the *Messages* page in tabular format. 
-
-Users can see separate lists to distinguish active messages from those that have already been read and acknowledged.
+The CNLC platform reports critical system events and display them on the *Messages* page in tabular format. Users can see separate lists to distinguish active messages from those that have already been read and acknowledged.
 
 ###### _Topics on this page..._
 
@@ -24,6 +22,7 @@ All new messages are displayed on the *Messages* page under the *Active messages
 2. **Home page**  The messages panel on the [Home page](/help/overall-status) turns red and indicates the number of messages waiting.
    
    <v-img src="/alt_msg_notif.png" alt="" align="left"></v-img>
+   
    ![](assets\images\alt_msg_notif.png)
    
 3. **[Ledger management page](/help/manage-ledger)**   For messages related to a particular ledger, the messages panel on the management page for that ledger red and indicates the number of messages waiting.
@@ -39,11 +38,11 @@ After a user acknowledges  a particular message, the system shifts it from the u
 <v-img src="/alt_msg_main.png" alt="" align="left"></v-img>
 ![](assets\images\alt_msg_main.png)
 
-###### Acknowledging a message
+##### Acknowledging a message
 
 To acknowledge any message, simply click its **Acknowledge** button on the far right of the row.
 
-###### View message detail
+##### View message detail
 
 To see the message detail, click any data field in the row.
 

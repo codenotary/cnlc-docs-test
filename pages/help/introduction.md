@@ -3,7 +3,7 @@ title: Understanding the System
 ---
 
 -------
-If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.
+If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  align="left"
 
 ###### _Topics on this page..._
 
@@ -18,7 +18,6 @@ If you're new to the CodeNotary Ledger Compliance platform, taking a moment to r
 <nuxt-link :to="{path: '/help/introduction', hash: 'major-components'}" v-scroll-to="{el: '#major-components'}">
 	- Major components
 </nuxt-link>
-
 
 ## What is CodeNotary Ledger Compliance? 
 
@@ -40,8 +39,6 @@ The application of secure ledgers extends well beyond financial transactions. Bu
 * Store log streams (i. e. access logs)
 
 The CNLC platform provides additional security for key transactions in any business while enabling compliance with data privacy and security regulations like PCI-DSS-10.
-
-<a id="major-components" name="major-components">
 
 ## Major components
 
