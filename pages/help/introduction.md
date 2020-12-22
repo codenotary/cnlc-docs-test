@@ -24,7 +24,7 @@ If you're new to the CodeNotary Ledger Compliance platform, taking a moment to r
 
 CodeNotary Ledger Compliance (the 'CNLC Platform') is designed around the concept of immutability. That simply means that ledger entries cannot be modified or deleted after they're posted.
 
-Like Blockchain, CNLC ledger entries are protected by both the architecture and encryption. Unlike Blockchain, CNLC doesn't require transactions to be extensively replicated across network nodes. 
+Like Blockchain, CNLC ledger entries are protected by both the architecture and encryption. Unlike Blockchain, CNLC doesn't require transactions to be extensively replicated across network nodes.
 
 That means users get the benefits of a secure ledger packaged in architecture that far outperforms the speed of Blockchain read and write transactions. These performance trade-offs often make sense in environments that require secure transaction logs, but don't necessarily require the resource-intensive complexity of full Blockchain implementations.
 
@@ -101,8 +101,4 @@ The following integrations are available:
 
 - Transactions are written to the ledger as key-value pairs, using the provided SDK.
 
-
-
-<!-- | [<< Previous](/help) | [Next>>](/help/overall-status) |
-| -------------------- | -----------------------: |
-| *About Help*         |  *Home -- System Status* | -->
+<prev-next class="_margin-top-1" :next="{ url: '/overall-status', label: 'Home -- System Status' }"></prev-next>

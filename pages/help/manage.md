@@ -112,10 +112,4 @@ Upload TLS configuration file.
 
 ![](assets\images\alt_tls_cfg_dlg.png)
 
-
-
-| [<< Previous](/help/messages) |      |
-| ----------------------------- | ---: |
-| *Messages and Notifications*  |      |
-
-
+<prev-next class="_margin-top-1" :prev="{ url: '/messages, lable: 'Messages and Notifications' }"></prev-next>

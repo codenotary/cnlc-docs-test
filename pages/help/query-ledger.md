@@ -67,3 +67,5 @@ After running a query, you can click the **download** button to save a csv versi
 | [<< Previous](/help/using-ledger) | [Next>>](/help/use-audit-reports) |
 | --------------------------------- | --------------------------------: |
 | *Using the SDK*                   |        *Generating Audit Reports* |
+
+<prev-next class="_margin-top-1" :prev="{ url: '/using-ledger', label: 'Using the SDK' }" :next="{ url: '/use-audit-reports', label: 'Generating Audit Reports' }"></prev-next>

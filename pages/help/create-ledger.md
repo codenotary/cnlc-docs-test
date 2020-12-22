@@ -100,12 +100,4 @@ CodeNotary offers a variety of licensing options.
 
 Please contact [sales@codenotary.com](mailto:sales@codenotary.com) for help finding the right license for your needs.
 
-
-
-| [<< Previous](/help/overall-status) | [Next>>](/help/manage-ledger) |
-| ----------------------------------- | ----------------------------: |
-| *Home -- System Status*             |           *Managing a Ledger* |
-
--------
-
-
+<prev-next class="_margin-top-1" :prev="{ url: '/overall-status', lable: 'Home -- System Status' }" next="{ url: '/manage-ledger', lable: 'Managing a Ledger' }"></prev-next>

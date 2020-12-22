@@ -148,4 +148,4 @@ A new entry is created at the top of the list. The *Status* column indicates whe
 
 Note that larger files will take longer to create.
 
-<prev-next prev="/help/create-ledger" next="/help/use-ledger"></prev-next>
+<prev-next class="_margin-top-1" :prev="{ url: '/create-ledger', lable: 'Creating a Ledger' }" next="{ url: '/query-ledger', lable: 'Using the SDK' }"></prev-next>

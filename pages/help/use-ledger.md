@@ -92,13 +92,5 @@ The following integrations are available:
 * PostgreSQL Change Data Capture
 * CI/CD digital asset notarization
 
-
-
-| [<< Previous](/help/manage-ledger) | [Next>>](/help/query-ledger) |
-| ---------------------------------- | ---------------------------: |
-| *Managing  Ledgers*                |           *Querying Ledgers* |
-
--------
-
-
-
+<prev-next class="_margin-top-1" prev="/manage-ledger" next="/query-ledger"></prev-next>
+<prev-next class="_margin-top-1" :prev="{ url: '/manage-ledger', lable: 'Managing Ledgers' }" next="{ url: '/use-ledger', lable: 'Querying Ledgers' }"></prev-next>

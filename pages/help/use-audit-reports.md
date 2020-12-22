@@ -61,12 +61,4 @@ The bottom of the report shows selected KPIs and system stats at the time the au
 <v-img src="/alt_lcompli_bot_rept.png" alt="" align="left"></v-img>
 ![](assets\images\alt_lcompli_bot_rept.png)
 
-
-
-| [<< Previous](/help/query-ledger) | [Next>>](/help/user-management) |
-| --------------------------------- | ------------------------------: |
-| *Querying a Ledger*               |               *User management* |
-
--------
-
-
+<prev-next class="_margin-top-1" :prev="{ url: '/query-ledger, lable: 'Querying a Ledger' }" next="{ url: '/user-management', lable: 'User management' }"></prev-next>

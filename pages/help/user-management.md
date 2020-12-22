@@ -63,10 +63,4 @@ You can quickly change or delete a user's account from the options popup menu by
 
 All options open a simple text form that lets you enter changes. 
 
-| [<< Previous](/help/use-audit-reports) |     [Next>>](/help/messages) |
-| -------------------------------------- | ---------------------------: |
-| *Audit Reports*                        | *Messages and Notifications* |
-
--------
-
-
+<prev-next class="_margin-top-1" :prev="{ url: '/use-audit-reports, lable: 'Audit Reports' }" next="{ url: '/messages', lable: 'Messages and Notifications' }"></prev-next>

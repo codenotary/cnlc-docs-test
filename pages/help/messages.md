@@ -61,10 +61,4 @@ The system categorizes messages into the following types.
 
 For additional help understanding messages, please don't hesitate to contact us by email support@codenotary.com or chat with a support representative at https://codenotary.com. 
 
-| [<< Previous](/help/user-management) | [Next>>](/help/manage) |
-| ------------------------------------ | ---------------------: |
-| *User Management*                    |     *Manage Appliance* |
-
--------
-
-
+<prev-next class="_margin-top-1" :prev="{ url: '/user-management, lable: 'User Management' }" next="{ url: '/manage', lable: 'Manage Appliance' }"></prev-next>

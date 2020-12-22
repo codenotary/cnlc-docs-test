@@ -98,15 +98,4 @@ These help pages.
 **Developer Section**
 Offers links to download SDKs and other interfaces to support access of the CNLC platform from your code.
 
--------
-
-
-
-| [<< Previous](/help/introduction) | [Next>>](/help/create-ledger) |
-| --------------------------------- | ----------------------------: |
-| *Understanding the System*        |           *Creating a Ledger* |
-
--------
-
-
-
+<prev-next class="_margin-top-1" :prev="{ url: '/introduction', lable: 'Understanding the System' }" next="{ url: '/create-ledger', lable: 'Creating a Ledger' }"></prev-next>
