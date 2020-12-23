@@ -15,17 +15,14 @@ _Topics on this page..._
 
 ## Home page indicators
 
-![](assets\images\alt_hp_full_dash.png)
-
 <v-img src="/alt_hp_full_dash.png" alt="dashboard" align="right"></v-img>
-
 
 
 1. **Tampering Check**  
 
    The Ledger Compliance stack continually monitors entries for signatures of tampering -- data or cryptographic inconsistencies.  While *tampering* may indicate the data was intentionally changed, it may also just signal a hardware or software fault. 
 
-   <v-img src="/alt_msg_notamper.png" alt="" align="right"> </v-img>![](assets\images\alt_msg_notamper.png)
+   <v-img src="/alt_msg_notamper.png" alt="" align="right"> </v-img>
 
    ###### Messages
 
@@ -50,8 +47,6 @@ _Topics on this page..._
 
    <v-img src="/alt_ldgr_stat.png" alt="Ledger count"></v-img>
 
-   ![](assets\images\alt_ldgr_stat.png)
-
 4. **+ Add ledger**  Quick link to create a new Ledger.
    
    <v-img src="/alt_Add_ledger_btn_sm.png" alt="" align="left"> </v-img>
@@ -62,14 +57,10 @@ _Topics on this page..._
 
    <v-img src="/alt_wotb.png" alt="" align="left"> </v-img>
 
-   ![](assets\images\alt_wotb.png)
-
-   
 
 6. **Disk usage**  Displays a bar graph of the free and used storage space for both system and ledger data. You can mouse-over the graphic for details.
 
    <v-img src="/alt_disk_usage_e.png" alt="disk usage" align="left"></v-img>
-   ![](assets\images\alt_disk_usage_e.png)
 
 ## Navigation
 

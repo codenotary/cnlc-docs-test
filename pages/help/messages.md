@@ -17,13 +17,11 @@ The CNLC platform reports critical system events and display them on the *Messag
 
 All new messages are displayed on the *Messages* page under the *Active messages* tab. When any new messages are waiting to be read, the UI alerts users in three different locations:
 
-1. **Alert icon**![](assets\images\alt_bell_alert.png) The alert bell icon on the upper right of the status bar will display a flashing red dot above the bell.
+1. **Alert icon** <v-img src="/alt_bell_alert.png" alt=""><v-img/> The alert bell icon on the upper right of the status bar will display a flashing red dot above the bell.
 
 2. **Home page**  The messages panel on the [Home page](/help/overall-status) turns red and indicates the number of messages waiting.
    
    <v-img src="/alt_msg_notif.png" alt="" align="left"></v-img>
-   
-   ![](assets\images\alt_msg_notif.png)
    
 3. **[Ledger management page](/help/manage-ledger)**   For messages related to a particular ledger, the messages panel on the management page for that ledger red and indicates the number of messages waiting.
 
@@ -36,7 +34,6 @@ The *Messages* page consists of two tabs --  *Active messages* and *Acknowledged
 After a user acknowledges  a particular message, the system shifts it from the unread messages table and lists it under the Acknowledged messages tab.
 
 <v-img src="/alt_msg_main.png" alt="" align="left"></v-img>
-![](assets\images\alt_msg_main.png)
 
 ##### Acknowledging a message
 

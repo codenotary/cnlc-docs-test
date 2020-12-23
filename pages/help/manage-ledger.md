@@ -19,7 +19,6 @@ The top-level *Ledgers* page lists all the ledgers currently defined in the syst
 
 <v-img src="/alt_ledger_annot.png" alt="disk usage" align="left"></v-img>
 
-![](assets\images\alt_ledger_annot.png)
 
 By clicking the **Actions** icon, privileged users can enable/disable a ledger. When a ledger is disabled, SDK users cannot post transactions to it.  
 
@@ -33,7 +32,6 @@ Like the [Home page](/help/overall-status), the Ledger Dashboard displays status
 
 <v-img src="/alt_ledger_dash.png" alt="disk usage" align="left"></v-img>
 
-![](assets\images\alt_ledger_dash.png)
 
 Other Ledger statistics are shown on the page, such as the number of Ledger entries, Ledger size on disk, last data insertion time and the number of active data sources.
 
@@ -76,8 +74,6 @@ After creating your API key, you can copy it or download to a file on your local
 
 <v-img src="/alt_apikey_gen.png" alt="" align="left"></v-img>
 
-![](assets\images\alt_apikey_gen.png)
-
 To copy the API Key string to the clipboard, click the copy icon to the right of the key.
 
 To download the key as a file, click the **Download API Key** button.
@@ -94,11 +90,6 @@ While the SDK allows you to query ledger values based on a (lookup) key, the *Qu
 
 <v-img src="/alt_query_ldgr_wgt_annot.png" alt="" align="left"></v-img>
 
-
-
-
-![](assets\images\alt_query_ldgr_wgt_annot.png)
-
 #### Audit report
 
 Audit report lets you generate a PDF report containing the status of the current Ledger and
@@ -107,9 +98,6 @@ CodeNotary Ledger Compliance instance.
 Report generation requires to select start and end time of interest for displaying the relevant reporting data.
 
 <v-img src="/alt_aud_rept_main.png" alt="" align="left"></v-img>
-
-
-![](assets\images\alt_aud_rept_main.png)
 
 ##### Running Audit Reports
 
@@ -126,7 +114,6 @@ For more about Audit reports and what they contain, see the [*Using Audit Report
 The *Ledger Settings* tab lets you rename an existing ledger. 
 
 <v-img src="/alt_ldgr_set_dlg.png" alt="" align="left"></v-img>
-![](assets\images\alt_ldgr_set_dlg.png)
 
 Enter the new name in the text box then click the **Update ledger** button.
 
@@ -139,11 +126,10 @@ The Export ledger function lets you download ledger data as a JSON file.
 After clicking the *Export* tab from the ledger dashboard, a list view appears, showing previous exports for the current ledger and the timeframe each represents. 
 
 <v-img src="/alt_ldgr_export_main.png" alt="" align="left"></v-img>
-![](assets\images\alt_ldgr_export_main.png)
 
 ##### Download an existing export
 
-You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt=""></v-img>![](assets\images\alt_dnload_icn.png) in the *Actions* column on the far right.
+You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt=""></v-img> in the *Actions* column on the far right.
 
 ##### Create a new export
 

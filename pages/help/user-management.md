@@ -17,8 +17,6 @@ To add a user to the system, you'll need their email address, desired user name,
 
 <v-img src="/alt_usradmin_plain.png" alt="" align="left"></v-img>
 
-![](assets\images\alt_usradmin_plain.png)
-
 ### Role-based permissions
 
 Note that some limitations to user administration are imposed by your assign role.
@@ -43,7 +41,6 @@ Note that some limitations to user administration are imposed by your assign rol
    - last name (optional)
      <v-img src="/alt_updprofile_dlog.png" alt="" align="left"></v-img>
      
-     ![](assets\images\alt_updprofile_dlog.png)
 4. Select a role from the User role drop down menu.
 5. Click the **Create user** button.
 
@@ -54,7 +51,6 @@ You can change any of these parameters after creating a user, provided you have 
 You can quickly change or delete a user's account from the options popup menu by clicking the gear icon in the users row. 
 
 <v-img src="/alt_usradmin_menu.png" alt="" align="left"></v-img>
-![](assets\images\alt_usradmin_menu.png)
 
 ##### User management options 
 
