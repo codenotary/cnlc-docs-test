@@ -62,7 +62,7 @@ Click the **Update license** button when you're done.
 
 The Backup tab lists all previous backups, lets you download them, or create a new backup. 
 
-To create a backup now, click the **Create an on-demand backup** button. Click Download next to any
+To create a backup now, click the **Create an on-demand backup** button. Click Download next to any backup to get the backed-up data in archive format.
 
 <v-img src="/alt_bakup_dlog.png" alt="" align="left"></v-img>
 

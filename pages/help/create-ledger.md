@@ -54,7 +54,7 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 
 
 
-5. **Enter a unique name for the API Key ** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  
+5. **Enter a unique name for the API Key** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  
 
    The key name is simply an identifier that allows you to select it in other contexts.
 

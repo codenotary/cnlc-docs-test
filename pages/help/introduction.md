@@ -7,9 +7,9 @@ If you're new to the CodeNotary Ledger Compliance platform, taking a moment to r
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Ledger Compliance?](help/introduction#what-is-codenotary-ledger-compliance?)
+- [What is CodeNotary Ledger Compliance?](help/introduction#what-is-codenotary-ledger-compliance)
 
-- [What are some typical use cases?](help/introduction#what-are-some-typical-use-cases?)
+- [What are some typical use cases?](help/introduction#what-are-some-typical-use-cases)
 
 - [Major components](help/introduction#major-components)
 
