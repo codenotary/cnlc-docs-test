@@ -73,7 +73,6 @@ To access the SDK, click the the Developers icon on the left-hand navigation pan
 Click **Download SDKs**.
 
 <v-img src="/alt_devsdk_sm.png" alt="" align="left"></v-img>
-![](assets\images\alt_devsdk_sm.png)
 
 Select the SDK that matches your development language.
 

@@ -4,7 +4,6 @@ title: Welcome to CodeNotary Ledger Compliance!
 
 
 
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_help_sm.png)
 
 <v-img src="/alt_help_sm.png" alt=""></v-img>
 
@@ -63,7 +62,5 @@ For additional assistance with any topic, please don't hesitate to contact us by
 Copyright © 2020 CodeNotary, Inc. All rights reserved. 
 
 <v-img src="/alt_logo.png" alt="" align="left"> </v-img>
-
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_logo.png)
 
 

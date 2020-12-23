@@ -59,8 +59,6 @@ Ledger Compliance uses an append-only data structure to store inserts and update
 The user interface is a browser-based GUI. It's where you create and manage ledgers, create API keys, view statistics, run audit reports, and access various administrative functions.
 <v-img src="/alt_ledger_plain.png" alt="" align="left"> </v-img>
 
-![](assets\images\alt_ledger_plain.png)
-
 
 
 ### SDK

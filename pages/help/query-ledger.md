@@ -18,7 +18,6 @@ From the *Query Ledger* page you can search and filter ledger entries based on a
 There are three tabs on the *Query Ledger* page. The default tab is *Query*, where the search form is. The *Recent Queries* shows all the most recent queries run by any user. You can optionally save queries. Those are displayed under the *Saved Queries* tab. 
 
 <v-img src="/alt_query_ldgr_main.png" alt="" align="left"></v-img>
-![](assets\images\alt_query_ldgr_main.png)
 
 ## Running a query
 
@@ -26,8 +25,6 @@ Run queries from the *Query* tab on the *Query Ledgers* page. The form at the to
 
 <v-img src="/alt_query_ldgr_wgt_annot.png" alt="" align="left"></v-img>
 
-
-![](assets\images\alt_query_ldgr_wgt_annot.png)
 
 #### To run a query
 
