@@ -44,7 +44,7 @@ Define the URL, including port number, where system logs should be forwarded.
 
 Press the **Save changes** button after modifying the text. 
 
-<v-img src="/alt_logging_dlog.png" alt="" align="left"></v-img>
+<v-img src="/alt_logging_dlog.png" alt="" ></v-img>
 
 #### License
 
@@ -54,7 +54,7 @@ You can paste the license string directly into the text box, or click the Select
 
 Click the **Update license** button when you're done.
 
-<v-img src="/alt_lic_dlog.png" alt="" align="left"></v-img>
+<v-img src="/alt_lic_dlog.png" alt="" ></v-img>
 
 #### Backup
 
@@ -62,7 +62,7 @@ The Backup tab lists all previous backups, lets you download them, or create a n
 
 To create a backup now, click the **Create an on-demand backup** button. Click Download next to any backup to get the backed-up data in archive format.
 
-<v-img src="/alt_bakup_dlog.png" alt="" align="left"></v-img>
+<v-img src="/alt_bakup_dlog.png" alt="" ></v-img>
 
 
 #### Maintenance
@@ -73,7 +73,7 @@ To reboot, click the **Reboot appliance** button.
 
 If maintenance mode is currently off, the only other option is to turn it on (inhibit ledger access) by clicking the **Turn ON maintenance mode** button. After maintenance is complete, click the **Turn OFF maintenance mode** button.
 
-<v-img src="/alt_maint_dlog.png" alt="" align="left"></v-img>
+<v-img src="/alt_maint_dlog.png" alt="" ></v-img>
 
 #### Appliance Information
 
@@ -85,14 +85,14 @@ From the *Patching* tab you can apply a software patch from CodeNotary.
 
 If CodeNotary sends you a patch file, click the **Start patch upload** button to open a file dialog and select it from your local drive. Only .zip, .rar, or .tar.gz files are valid.
 
-<v-img src="/alt_patch_dlog.png" alt="" align="left"></v-img>
+<v-img src="/alt_patch_dlog.png" alt="" ></v-img>
 
 
 #### TLS configuration
 
 Upload TLS configuration file.
 
-<v-img src="/alt_tls_cfg_dlg.png" alt="" align="left"></v-img>
+<v-img src="/alt_tls_cfg_dlg.png" alt="" ></v-img>
 
 
 

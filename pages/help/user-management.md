@@ -15,7 +15,7 @@ The *Users* page lets administrators create new users, change parameters for exi
 
 To add a user to the system, you'll need their email address, desired user name, their role in the system and, optionally, their first and last name.
 
-<v-img src="/alt_usradmin_plain.png" alt="" align="left"></v-img>
+<v-img src="/alt_usradmin_plain.png" alt="" ></v-img>
 
 ### Role-based permissions
 
@@ -39,7 +39,7 @@ Note that some limitations to user administration are imposed by your assign rol
    - first name (optional)
    
    - last name (optional)
-     <v-img src="/alt_updprofile_dlog.png" alt="" align="left"></v-img>
+     <v-img src="/alt_updprofile_dlog.png" alt="" ></v-img>
      
 4. Select a role from the User role drop down menu.
 5. Click the **Create user** button.
@@ -50,7 +50,7 @@ You can change any of these parameters after creating a user, provided you have 
 
 You can quickly change or delete a user's account from the options popup menu by clicking the gear icon in the users row. 
 
-<v-img src="/alt_usradmin_menu.png" alt="" align="left"></v-img>
+<v-img src="/alt_usradmin_menu.png" alt="" ></v-img>
 
 ##### User management options 
 

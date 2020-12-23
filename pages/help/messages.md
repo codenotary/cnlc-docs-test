@@ -21,7 +21,7 @@ All new messages are displayed on the *Messages* page under the *Active messages
 
 2. **Home page**  The messages panel on the [Home page](/help/overall-status) turns red and indicates the number of messages waiting.
    
-   <v-img src="/alt_msg_notif.png" alt="" align="left"></v-img>
+   <v-img src="/alt_msg_notif.png" alt="" ></v-img>
    
 3. **[Ledger management page](/help/manage-ledger)**   For messages related to a particular ledger, the messages panel on the management page for that ledger red and indicates the number of messages waiting.
 
@@ -33,7 +33,7 @@ The *Messages* page consists of two tabs --  *Active messages* and *Acknowledged
 
 After a user acknowledges  a particular message, the system shifts it from the unread messages table and lists it under the Acknowledged messages tab.
 
-<v-img src="/alt_msg_main.png" alt="" align="left"></v-img>
+<v-img src="/alt_msg_main.png" alt="" ></v-img>
 
 ##### Acknowledging a message
 

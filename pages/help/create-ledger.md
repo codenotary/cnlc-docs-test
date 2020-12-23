@@ -16,7 +16,7 @@ _Topics on this page..._
 
 New ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add ledger** button. 
 
-<v-img src="/alt_ledger_plain.png" alt="" align="left"></v-img>
+<v-img src="/alt_ledger_plain.png" alt="" ></v-img>
 
 Creating a ledger takes just a few steps -- name your ledger, add optional tags, and generate an API key.
 
@@ -24,7 +24,7 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 
 2. Click the **+ Add ledger** button. The *Define Ledger* panel opens.
    
-<v-img src="/alt_panell_defineledger.png" alt="" align="left"></v-img>
+<v-img src="/alt_panell_defineledger.png" alt="" ></v-img>
    
    
 3. **Enter a unique Ledger name** in the *Ledger name* field. 
@@ -40,7 +40,7 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 
    *Click the **Previous step** button to return to the Define Ledger* panel.
 
-   <v-img src="/alt_panel_definekey_sm.png" alt="" align="left"></v-img>
+   <v-img src="/alt_panel_definekey_sm.png" alt="" ></v-img>
 
 
 
@@ -76,7 +76,7 @@ All ledger names and API key names must be unique across the entire system. Rena
 
 ##### License error
 
-<v-img src="/alt_err_lic.png" alt="" align="left"></v-img>
+<v-img src="/alt_err_lic.png" alt="" ></v-img>
 
 CodeNotary offers a variety of licensing options.
 

@@ -15,7 +15,7 @@ Audit reports let you trace time-stamped events in the system for analyzing usag
 
 A link to the *Audit report* page is available from the main navigation bar. It displays a list of previously generated auto reports, which the platform maintains as internal files.
 
-<v-img src="/alt_aud_rept_main.png" alt="" align="left"></v-img>
+<v-img src="/alt_aud_rept_main.png" alt="" ></v-img>
 
 When you generate a new audit report, it's added to the tabular view, and you can download it, or open the PDF directly.
 
@@ -43,19 +43,19 @@ Audit reports are created as PDF files. The content includes a title page, a lis
 
 The first page includes a unique id for the report, a sequential *Audit Report* number, the start and end dates for which data is included, and the date the report was generated.
 
-<v-img src="/alt_lcompli_top_rept.png" alt="" align="left"></v-img>
+<v-img src="/alt_lcompli_top_rept.png" alt="" ></v-img>
 
 ##### Log entries
 
 Below the title page is the list of all logged system events for the designated period. 
 
-<v-img src="/alt_lcompli_mid_rept.png" alt="" align="left"></v-img>
+<v-img src="/alt_lcompli_mid_rept.png" alt="" ></v-img>
 
 ##### System status
 
 The bottom of the report shows selected KPIs and system stats at the time the audit was run.
 
-<v-img src="/alt_lcompli_bot_rept.png" alt="" align="left"></v-img>
+<v-img src="/alt_lcompli_bot_rept.png" alt="" ></v-img>
 
 
 
