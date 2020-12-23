@@ -60,9 +60,9 @@ Click the **Update license** button when you're done.
 
 #### Backup
 
-To set automatic ledger backups at a specified interval, click the **Manage scheduled backup** button.
+The Backup tab lists all previous backups, lets you download them, or create a new backup. 
 
-To create a backup now, click the **Create an on-demand backup** button.
+To create a backup now, click the **Create an on-demand backup** button. Click Download next to any
 
 <v-img src="/alt_bakup_dlog.png" alt="" align="left"></v-img>
 
@@ -70,13 +70,6 @@ To create a backup now, click the **Create an on-demand backup** button.
 ![](assets\images\alt_bakup_dlog.png)
 
 
-
-After clicking Manage scheduled backup, the form below opens:
-
-Set the backup interval, and enter your password to validate the change, then click the **Apply backup policy** button.
-
-<v-img src="/alt_bakupsched_dlog.png" alt="" align="left"></v-img>
-![](assets\images\alt_bakupsched_dlog.png)
 
 #### Maintenance
 
@@ -89,7 +82,7 @@ If maintenance mode is currently off, the only other option is to turn it on (in
 <v-img src="/alt_maint_dlog.png" alt="" align="left"></v-img>
 ![](assets\images\alt_maint_dlog.png)
 
-#### Appliance  Information
+#### Appliance Information
 
 This tab displays current system status. 
 

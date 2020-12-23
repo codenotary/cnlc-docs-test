@@ -48,7 +48,7 @@ The first step is to instantiate a LC client. You only need one
 
 - Server IP address 
 
-- port number (typically 3324 but check your implementation)
+- port number (typically the same port on which the web UI is exposed)
 
 ## Getting started 
 

@@ -38,9 +38,8 @@ The procedures for both configuration and use (through the SDK) are identical wh
 
 #### Ledger Transactions
 
-- [Using the SDK](/help/use-ledger)
-_Writing ledger entries, querying a ledger from your applications._
-  
+- [Using the SDK](/help/use-ledger)  _Writing ledger entries, querying a ledger from your applications._
+
 - [Query Ledger data](/help/query-ledger)
   _Accessing existing ledger entries._
 
@@ -64,5 +63,7 @@ For additional assistance with any topic, please don't hesitate to contact us by
 Copyright © 2020 CodeNotary, Inc. All rights reserved. 
 
 <v-img src="/alt_logo.png" alt="" align="left"> </v-img>
+
+![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_logo.png)
 
 

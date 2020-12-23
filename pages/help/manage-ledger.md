@@ -50,17 +50,17 @@ Ledger management functions are accessed from the tabs along the top of the page
 
 After a ledger is created, you can change its name, enable/disable it, generate new API keys or delete keys no longer in use. To access management tools, select the appropriate tab at the top of the page.
 
-| Function                                                    | Tab               |                                                          |
-| ----------------------------------------------------------- | ----------------- | -------------------------------------------------------- |
-| [Managing API keys](help/manage-ledger#managing-API-keys)   | *API Keys*        | View existing API keys for the selected ledger.          |
-| [Querying a ledger](help/manage-ledger#querying-a-ledger)   | *Query Ledger*    | Query and transactions in the selected ledger.           |
-| [Audit report](help/manage-ledger#audit-report)             | *Audit Report*    | Create an audit report of events for the current ledger. |
-| [Renaming a ledger](help/manage-ledger#renaming-a-ledger)   | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
-| [Exporting a ledger](help/manage-ledger#exporting-a-ledger) | *Export*          | Export ledger data to a JSON file.                       |
+| Function                                                  | Tab               |                                                          |
+| --------------------------------------------------------- | ----------------- | -------------------------------------------------------- |
+| [Managing API keys](help/manage-ledger#managing-API-keys) | *API Keys*        | View existing API keys for the selected ledger.          |
+| [Querying a ledger](help/manage-ledger#querying-a-ledger) | *Query Ledger*    | Query and transactions in the selected ledger.           |
+| [Audit report](help/manage-ledger#audit-report)           | *Audit Report*    | Create an audit report of events for the current ledger. |
+| [Renaming a ledger](help/manage-ledger#renaming-a-ledger) | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
+| [Exporting a ledger](help/manage-ledger#export-ledger)    | *Export*          | Export ledger data to a JSON file.                       |
 
 #### Managing API keys
 
-The *API Keys* tab list every API configured for the selected ledger --  its name, type (SDK, CI/CD, Postgres), and most recent usage date. You can have multiple API keys for the same ledger. That way you can assign a unique key to each application when you have more than one accessing the same ledger. 
+The *API Keys* tab lists every API configured for the selected ledger --  its name, type (SDK, CI/CD, Postgres), and most recent usage date. You can have multiple API keys for the same ledger. That way you can assign a unique key to each application when you have more than one accessing the same ledger. 
 
 By clicking the **Actions** icon you can add new keys, get the value for existing keys, delete a key or show the Signer ID (for CI/CD keys).
 

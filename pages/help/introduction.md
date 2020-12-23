@@ -3,15 +3,15 @@ title: Understanding the System
 ---
 
 -------
-If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  align="left"
+If you're new to the CodeNotary Ledger Compliance platform, taking a moment to review the topics on this page will make it easier to understand other help content.  
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Ledger Compliance?](help/introducton#what-is-codenotary-ledger-compliance?)
+- [What is CodeNotary Ledger Compliance?](help/introduction#what-is-codenotary-ledger-compliance?)
 
-- [What are some typical use cases?](help/introducton#what-are-some-typical-use-cases?)
+- [What are some typical use cases?](help/introduction#what-are-some-typical-use-cases?)
 
-- [Major components](help/introducton#major-components)
+- [Major components](help/introduction#major-components)
 
 ## What is CodeNotary Ledger Compliance? 
 
@@ -38,9 +38,9 @@ The CNLC platform provides additional security for key transactions in any busin
 
 Whether deployed on-premises or in the cloud, CodeNotary Ledger Compliance provides you a browser-based dashboard that can be used to manage the software:
 
-* [Core platform](help/introducton#core-platform)
-* [User Interface](help/introducton#user-interface)
-* [SDK](help/introducton#sdk)
+* [Core platform](help/introduction#core-platform)
+* [User Interface](help/introduction#user-interface)
+* [SDK](help/introduction#sdk)
 
 ### Core platform
 
@@ -56,7 +56,7 @@ Ledger Compliance uses an append-only data structure to store inserts and update
 
 ### User Interface
 
-The user interface is a browser-base GUI. It's where you create and manage ledgers, create API keys, view statistics, run audit reports, and access various administrative functions.
+The user interface is a browser-based GUI. It's where you create and manage ledgers, create API keys, view statistics, run audit reports, and access various administrative functions.
 <v-img src="/alt_ledger_plain.png" alt="" align="left"> </v-img>
 
 ![](assets\images\alt_ledger_plain.png)

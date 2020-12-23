@@ -23,11 +23,9 @@ To add a user to the system, you'll need their email address, desired user name,
 
 Note that some limitations to user administration are imposed by your assign role.
 
-System Admin - Full read-write access to all functions in the UI.
-
-Admin  - Limited read-write access to all functions in the UI.
-
-Ledger manager  - Read-write access to user functions in the UI, but no access to admin functions.
+- System admin - Full read-write access to all functions in the UI.
+- Ledger administrator - Read-write access to user functions in the UI, but no access to admin functions.
+- Auditor - Read-only permissions on ledgers and their contents
 
 ### To create a new user  
 
