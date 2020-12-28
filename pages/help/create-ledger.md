@@ -8,17 +8,17 @@ The very first step in implementing a ledger is to create it in the browser-base
 
 _Topics on this page..._
 
-- [To create a ledger](help/create-ledger#to-create-a-ledger)
+- [To Create a Ledger](help/create-ledger#to-create-a-ledger)
 
-- [Errors creating a ledger](help/create-ledger#errors-creating-a-ledger)
+- [Errors Creating a Ledger](help/create-ledger#errors-creating-a-ledger)
 
-## To create a ledger
+## To Create a Ledger
 
 New ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add ledger** button. 
 
 <v-img src="/alt_ledger_plain.png" alt="" ></v-img>
 
-Creating a ledger takes just a few steps -- name your ledger, add optional tags, and generate an API key.
+Creating a ledger takes just a few steps - name your ledger, add optional tags, and generate an API key.
 
 1. **Navigate to the *Ledger Page***  From the left-side navigation bar, select **Ledger** . The _Ledger_ page opens.
 
@@ -54,13 +54,13 @@ Creating a ledger takes just a few steps -- name your ledger, add optional tags,
 
    ---
 
-   **NOTE**  If you have exceeded the total number of ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors creating a ledger](#/help/errors-creating-a-ledger) below.) 
+   **NOTE**  If you have exceeded the total number of ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors Creating a Ledger](#/help/errors-creating-a-ledger) below.) 
 
    ---
 
    Click the **Previous step** button to return to the *Define API key* panel. 
 
-## Errors creating a ledger
+## Errors Creating a Ledger
 
 A red error message may pop up If the system can't validate or process an entry, or if your action exceed limits set by your user license.
 
@@ -92,7 +92,7 @@ Please contact [sales@codenotary.com](mailto:sales@codenotary.com) for help find
 
 | [<< Previous](/help/overall-status) | [Next>>](/help/manage-ledger) |
 | ----------------------------------- | ----------------------------: |
-| *Home -- System Status*             |           *Managing a Ledger* |
+| *Home - System Status*             |           *Managing a Ledger* |
 
 -------
 

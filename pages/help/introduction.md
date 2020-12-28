@@ -11,7 +11,7 @@ If you're new to the CodeNotary Ledger Compliance platform, taking a moment to r
 
 - [What are some typical use cases?](help/introduction#what-are-some-typical-use-cases)
 
-- [Major components](help/introduction#major-components)
+- [Major Components](help/introduction#major-components)
 
 ## What is CodeNotary Ledger Compliance? 
 
@@ -34,7 +34,7 @@ The application of secure ledgers extends well beyond financial transactions. Bu
 
 The CNLC platform provides additional security for key transactions in any business while enabling compliance with data privacy and security regulations like PCI-DSS-10.
 
-## Major components
+## Major Components
 
 Whether deployed on-premises or in the cloud, CodeNotary Ledger Compliance provides you a browser-based dashboard that can be used to manage the software:
 
@@ -48,7 +48,7 @@ The core CodeNotary Ledger Compliance platform manages ledger data, security, an
 
 Users interact with the platform in two ways: through a browser-based UI, and a programming interface provided by CodeNotary SDKs
 
-The user interface provides for dashboard, administration and configuration functions -- creating ledgers, running reports and so on.
+The user interface provides for dashboard, administration and configuration functions - creating ledgers, running reports and so on.
 
 The programming interface provided by our SDKs lets you perform ledger transactions with the core. 
 
@@ -94,6 +94,6 @@ The following integrations are available:
 
 | [<< Previous](/help) | [Next>>](/help/overall-status) |
 | -------------------- | -----------------------: |
-| *About Help*         |  *Home -- System Status* |
+| *About Help*         |  *Home - System Status* |
 
 

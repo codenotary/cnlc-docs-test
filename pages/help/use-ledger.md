@@ -7,7 +7,7 @@ title: Introduction to the SDK
 _Topics on this page..._
 
 - [What can you do with the SDK?](help/use-ledger#what-can-you-do-with-the-sdk-?)
-- [Resources provided](help/use-ledger#resources-provided)
+- [Resources Provided](help/use-ledger#resources-provided)
 - [Getting started](help/use-ledger#getting-started)
 - [Downloading the SDK](help/use-ledger#downloading-the-sdk)
 
@@ -27,7 +27,7 @@ The core methods provided are these:
 
 **get** lets you retrieve data from a ledger. There are several variations of get.
 
-## Resources provided
+## Resources Provided
 
 The SDK for each supported language is available for download as a zip file from here.
 
@@ -54,17 +54,17 @@ The first step is to instantiate a LC client. You only need one
 
 Once you have at least one ledger in the UI, it's a quick few steps to accessing it from within your code.
 
-**STEP 1  Download the SDK**
+**1.  Download the SDK**
 Go to the developers page and download the zip file that matches your preferred development language.
 
-**STEP 2  Install language-specific libraries**
+**2.  Install language-specific libraries**
 Unzip the file to your development environment.
 
-**STEP 3  Instantiate the client**
+**3.  Instantiate the client**
 Initialize and connect to your CNLC platform instance. Here's where you use the API key generated from the ledger your client is connecting to.
 
-**STEP 4  Use client methods within your code to read and write transactions**
-Available methods are provided by the client object you initialize in STEP 3.
+**4.  Use client methods within your code to read and write transactions**
+Available methods are provided by the client object you initialize in step 3.
 
 ## Downloading the SDK
 

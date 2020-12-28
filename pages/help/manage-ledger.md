@@ -8,10 +8,10 @@ This section describes how to manage an existing Ledger using the features offer
 
 _Topics on this page..._
 
-- [Ledgers page](help/manage-ledger#ledgers-page)
-- [Ledger management features](help/manage-ledger#ledger-management-features)
+- [Ledgers Page](help/manage-ledger#ledgers-page)
+- [Ledger Management Features](help/manage-ledger#ledger-management-features)
 
-## Ledgers page
+## Ledgers Page
 
 The *Ledgers* page displays a searchable (by name), paginated table of all ledgers in the system.
 
@@ -24,7 +24,7 @@ By clicking the **Actions** icon, privileged users can enable/disable a ledger. 
 
 Clicking on a ledger name takes you to its Dashboard page.
 
-#### Ledger dashboard
+#### Ledger Dashboard
 
 When you click a ledger from the Ledgers page, the Ledger Dashboard opens.
 
@@ -44,21 +44,21 @@ Ledger management functions are accessed from the tabs along the top of the page
    [Messages and Notifications](/help/messages) tab.
 3. *Writes over time* shows the most recent write operations in the current ledger.
 
-## Ledger management features
+## Ledger Management Features
 
 After a ledger is created, you can change its name, enable/disable it, generate new API keys or delete keys no longer in use. To access management tools, select the appropriate tab at the top of the page.
 
 | Function                                                  | Tab               |                                                          |
 | --------------------------------------------------------- | ----------------- | -------------------------------------------------------- |
-| [Managing API keys](help/manage-ledger#managing-API-keys) | *API Keys*        | View existing API keys for the selected ledger.          |
-| [Querying a ledger](help/manage-ledger#querying-a-ledger) | *Query Ledger*    | Query and transactions in the selected ledger.           |
-| [Audit report](help/manage-ledger#audit-report)           | *Audit Report*    | Create an audit report of events for the current ledger. |
+| [Managing API Keys](help/manage-ledger#managing-API-keys) | *API Keys*        | View existing API keys for the selected ledger.          |
+| [Querying a Ledger](help/manage-ledger#querying-a-ledger) | *Query Ledger*    | Query and transactions in the selected ledger.           |
+| [Audit Report](help/manage-ledger#audit-report)           | *Audit Report*    | Create an audit report of events for the current ledger. |
 | [Renaming a ledger](help/manage-ledger#renaming-a-ledger) | *Ledger Settings* | Change the ledger name as it appears in the UI.          |
 | [Exporting a ledger](help/manage-ledger#export-ledger)    | *Export*          | Export ledger data to a JSON file.                       |
 
-#### Managing API keys
+#### Managing API Keys
 
-The *API Keys* tab lists every API configured for the selected ledger --  its name, type (SDK, CI/CD, Postgres), and most recent usage date. You can have multiple API keys for the same ledger. That way you can assign a unique key to each application when you have more than one accessing the same ledger. 
+The *API Keys* tab lists every API configured for the selected ledger - its name, type (SDK, CI/CD, Postgres), and most recent usage date. You can have multiple API keys for the same ledger. That way you can assign a unique key to each application when you have more than one accessing the same ledger. 
 
 By clicking the **Actions** icon you can add new keys, get the value for existing keys, delete a key or show the Signer ID (for CI/CD keys).
 
@@ -86,11 +86,11 @@ To download the key as a file, click the **Download API Key** button.
 
 #### Querying a Ledger
 
-While the SDK allows you to query ledger values based on a (lookup) key, the *Query Ledger* tab lets you query ledger contents directly through the UI. The query process is is discussed in more detail on the [*Query Ledger data page*](/help/query-ledger) .
+While the SDK allows you to query ledger values based on a (lookup) key, the *Query Ledger* tab lets you query ledger contents directly through the UI. The query process is is discussed in more detail on the [*Query Ledger Data page*](/help/query-ledger) .
 
 <v-img src="/alt_query_ldgr_wgt_annot.png" alt="" ></v-img>
 
-#### Audit report
+#### Audit Report
 
 Audit report lets you generate a PDF report containing the status of the current Ledger and
 CodeNotary Ledger Compliance instance.
@@ -123,17 +123,17 @@ Note that this has no effect on SDK users. It merely changes the name of the led
 
 The Export ledger function lets you download ledger data as a JSON file.
 
-After clicking the *Export* tab from the ledger dashboard, a list view appears, showing previous exports for the current ledger and the timeframe each represents. 
+After clicking the *Export* tab from the Ledger Dashboard, a list view appears, showing previous exports for the current ledger and the timeframe each represents. 
 
 <v-img src="/alt_ldgr_export_main.png" alt="" ></v-img>
 
-##### Download an existing export
+##### Download an Existing Export
 
 You can download any previously exported file again by clicking the download icon <v-img src="/alt_dnload_icn.png" alt=""></v-img> in the *Actions* column on the far right.
 
-##### Create a new export
+##### Create a New Export
 
-Click the **Export ledger** button on the upper right to create a new download that includes all current data.
+Click the **Export Ledger** button on the upper right to create a new download that includes all current data.
 
 A new entry is created at the top of the list. The *Status* column indicates when the file is ready for download. It will first display "running" as the system creates the file. When *Status* changes to "finished" the download icon appears. 
 

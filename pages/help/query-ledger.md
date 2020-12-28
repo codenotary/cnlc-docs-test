@@ -7,26 +7,26 @@ From the *Query Ledger* page you can search and filter ledger entries based on a
 
 ###### _Topics on this page..._
 
-- [The Query Ledger page](help/query-ledger#the-query-ledger-page)
+- [The Query Ledger Page](help/query-ledger#the-query-ledger-page)
 
-- [Running a query](help/query-ledger#running-a-query)
+- [Running a Query](help/query-ledger#running-a-query)
 
-- [Query results tools](help/query-ledger#query-results-tools)
+- [Query Results Tools](help/query-ledger#query-results-tools)
 
-## The Query Ledger page
+## The Query Ledger Page
 
 There are three tabs on the *Query Ledger* page. The default tab is *Query*, where the search form is. The *Recent Queries* shows all the most recent queries run by any user. You can optionally save queries. Those are displayed under the *Saved Queries* tab. 
 
 <v-img src="/alt_query_ldgr_main.png" alt="" ></v-img>
 
-## Running a query
+## Running a Query
 
 Run queries from the *Query* tab on the *Query Ledgers* page. The form at the top of the page lets you select filter parameters, run the query, and save parameters for later reuse.
 
 <v-img src="/alt_query_ldgr_wgt_annot.png" alt="" ></v-img>
 
 
-#### To run a query
+#### To Run a Query
 
 1. Select the ledger from the ledger dropdown.
 
@@ -45,19 +45,19 @@ Run queries from the *Query* tab on the *Query Ledgers* page. The form at the to
 7. 
    Click the **Filter** button to run the query.
 
-## Query results tools
+## Query Results Tools
 
 The UI provides additional tools to save, search, and download your query results.
 
-##### Save query parameters for reuse
+##### Save Query Parameters for Reuse
 
 You can save the values of query fields by clicking the **disk** button.
 
-##### Searching query results
+##### Searching Query Results
 
 A search tool appears after you run a query, unless no ledger entries were returned.
 
-##### Download query results
+##### Download Query Results
 
 After running a query, you can click the **download** button to save a csv version of the results to your local hard drive.
 

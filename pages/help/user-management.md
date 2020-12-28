@@ -7,17 +7,17 @@ The *Users* page lets administrators create new users, change parameters for exi
 
 ###### _Topics on this page..._
 
-- [Creating new users](help/user-management#creating-new-users)
+- [Creating New Users](help/user-management#creating-new-users)
 
-- [Managing existing users](help/user-management#managing-existing-users)
+- [Managing Existing Users](help/user-management#managing-existing-users)
 
-## Creating new users
+## Creating New Users
 
 To add a user to the system, you'll need their email address, desired user name, their role in the system and, optionally, their first and last name.
 
 <v-img src="/alt_usradmin_plain.png" alt="" ></v-img>
 
-### Role-based permissions
+### Role-based Permissions
 
 Note that some limitations to user administration are imposed by your assign role.
 
@@ -25,7 +25,7 @@ Note that some limitations to user administration are imposed by your assign rol
 - Ledger administrator - Read-write access to user functions in the UI, but no access to admin functions.
 - Auditor - Read-only permissions on ledgers and their contents
 
-### To create a new user  
+### To Create a New User  
 
 1. Go to the *Users* page 
 2. Click the **Create user** button in the upper right.
@@ -46,13 +46,13 @@ Note that some limitations to user administration are imposed by your assign rol
 
 You can change any of these parameters after creating a user, provided you have appropriate permissions.
 
-## Managing existing users
+## Managing Existing Users
 
 You can quickly change or delete a user's account from the options popup menu by clicking the gear icon in the users row. 
 
 <v-img src="/alt_usradmin_menu.png" alt="" ></v-img>
 
-##### User management options 
+##### User Management Options 
 
 | Option              | Action                                                       |
 | ------------------- | ------------------------------------------------------------ |

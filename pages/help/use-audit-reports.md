@@ -7,11 +7,11 @@ Audit reports let you trace time-stamped events in the system for analyzing usag
 
 ###### _Topics on this page..._
 
-- [Generating audit reports](help/use-audit-reports#generating-audit-reports)
+- [Generating Audit Reports](help/use-audit-reports#generating-audit-reports)
 
-- [Reading the audit report](help/use-audit-reports#reading-the-audit-report)
+- [Reading the Audit Report](help/use-audit-reports#reading-the-audit-report)
 
-## Generating audit reports 
+## Generating Audit Reports 
 
 A link to the *Audit report* page is available from the main navigation bar. It displays a list of previously generated auto reports, which the platform maintains as internal files.
 
@@ -19,39 +19,39 @@ A link to the *Audit report* page is available from the main navigation bar. It 
 
 When you generate a new audit report, it's added to the tabular view, and you can download it, or open the PDF directly.
 
-#### To generate a system-wide audit report
+#### To Generate a System-wide Audit Report
 
 1. Go to the *Audit report* page. 
 2. Select how far back, from today, the report should include data for.  You can select time units of hours, days, months, or years from the dropdown. Then select the number of those time units the report should go back to. 
 3. Click the **Generate report** button in the upper right. The report is created as a file in the system. It will appear at the end of the tabular display after generation. 
 4. Click the **Download** button <v-img src="/alt_dnload_icn.png" alt=""></v-img> in the far right column to download it as a PDF file.
 
-#### To generate an audit report for a single ledger
+#### To Generate an Audit Report for a Single Ledger
 
 1. Go to the *Ledgers* page. 
-2. Select the desired ledger from the Ledgers display. The Ledger dashboard appears.
+2. Select the desired ledger from the Ledgers display. The Ledger Dashboard appears.
 3. Click on the *Audit report* tab. The audit report interface appears. You can select a different ledger from the dropdown menu in the upper left.
 4. Select how far back, from today, the report should include data for.  You can select time units of hours, days, months, or years from the dropdown. Then select the number of those time units the report should go back to. 
 5. Click the **Generate report** button in the upper right. The report is created as a file in the system. It will appear at the end of the tabular display after generation. 
 6. Click the **Download** button <v-img src="/alt_dnload_icn.png" alt=""></v-img> in the far right column to download it as a PDF file. 
 
-## Reading the Audit report
+## Reading the Audit Report
 
 Audit reports are created as PDF files. The content includes a title page, a list of audit entries, and a CNLC system status report.
 
-##### Title page
+##### Title Page
 
 The first page includes a unique id for the report, a sequential *Audit Report* number, the start and end dates for which data is included, and the date the report was generated.
 
 <v-img src="/alt_lcompli_top_rept.png" alt="" ></v-img>
 
-##### Log entries
+##### Log Entries
 
 Below the title page is the list of all logged system events for the designated period. 
 
 <v-img src="/alt_lcompli_mid_rept.png" alt="" ></v-img>
 
-##### System status
+##### System Status
 
 The bottom of the report shows selected KPIs and system stats at the time the audit was run.
 

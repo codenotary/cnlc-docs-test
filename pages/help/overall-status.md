@@ -1,26 +1,26 @@
 ---
-title: Home -- System Status 
+title: Home - System Status 
 ---
 
 ---
 
-The *Home* page appears immediately after user login. It displays multiple indicators of system-wide status -- ledgers' status (like total instances and tamper alerts), and system indicators like total transactions posted, resource usage, and pending system messages.
+The *Home* page appears immediately after user login. It displays multiple indicators of system-wide status - ledgers' status (like total instances and tamper alerts), and system indicators like total transactions posted, resource usage, and pending system messages.
 
 The left-hand navigation panel provides links to every top-level page in the UI.
 
 _Topics on this page..._
 
-- [Home page indicators](help/overall-status#home-page-indicators)
+- [Home Page Indicators](help/overall-status#home-page-indicators)
 - [Navigation](help/overall-status#navigation)
 
-## Home page indicators
+## Home Page Indicators
 
 <v-img src="/alt_hp_full_dash.png" alt="dashboard" ></v-img>
 
 
 1. **Tampering Check**  
 
-   The Ledger Compliance stack continually monitors entries for signatures of tampering -- data or cryptographic inconsistencies.  While *tampering* may indicate the data was intentionally changed, it may also just signal a hardware or software fault. 
+   The Ledger Compliance stack continually monitors entries for signatures of tampering - data or cryptographic inconsistencies.  While *tampering* may indicate the data was intentionally changed, it may also just signal a hardware or software fault. 
 
    <v-img src="/alt_msg_notamper.png" alt="" > </v-img>
 
@@ -39,7 +39,7 @@ _Topics on this page..._
 
    Click the indicator to view unread messages.
 
-   Messages can indicate mission critical events -- low disk space, high resource usage, authentication errors, component failures, or pending license expiration. Be sure to monitor messages frequently.
+   Messages can indicate mission critical events - low disk space, high resource usage, authentication errors, component failures, or pending license expiration. Be sure to monitor messages frequently.
 
 2. **Ledger count**  Shows the current number of ledgers defined in the system, both active and inactive. 
 

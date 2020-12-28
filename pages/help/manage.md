@@ -7,34 +7,34 @@ The Manage page provides a set of administration tools to help you manage the CN
 
 ###### _Topics on this page..._
 
-- [The Manage page](help/manage#the-manage-page)
+- [The Manage Page](help/manage#the-manage-page)
 
-- [Using management tools](help/manage#using-management-tools)
+- [Using Management Tools](help/manage#using-management-tools)
 
-## The Manage page
+## The Manage Page
 
 All system admin functions, from backup to logging and licensing, are available under tabs on the *Manage* page.
 
-##### System management tools 
+##### System Management Tools 
 
 | Tab                                                         | Action                                                     |
 | ----------------------------------------------------------- | ---------------------------------------------------------- |
-| [Email notifications](help/manage#email-notifications)      | Configure outbound email notifications of system messages. |
+| [Email Notifications](help/manage#email-notifications)      | Configure outbound email notifications of system messages. |
 | [Logging](help/manage#logging)                              | Export or read system logs.                                |
 | [License](help/manage#license)                              | Apply or update your CNLC user license.                    |
 | [Backup](help/manage#backup)                                | Set automatic ledger backups.                              |
 | [Maintenance](help/manage#maintenance)                      | Restart the system, or inhibit ledger transactions.        |
 | [Appliance  Information](help/manage#appliance-information) | Selected system stats.                                     |
 | [Patching](help/manage#patching)                            | Upload and apply a software patch.                         |
-| [TLS configuration](help/manage#tls-configuration)          | Upload TLS configuration file.                             |
+| [TLS Configuration](help/manage#tls-configuration)          | Upload TLS configuration file.                             |
 
 All options open a simple text form that lets you enter changes. 
 
-## Using management tools
+## Using Management Tools
 
 The options available under each tab are discussed in more detail below.
 
-#### Email notifications
+#### Email Notifications
 
 Configure outbound email notifications of system messages.
 
@@ -88,7 +88,7 @@ If CodeNotary sends you a patch file, click the **Start patch upload** button to
 <v-img src="/alt_patch_dlog.png" alt="" ></v-img>
 
 
-#### TLS configuration
+#### TLS Configuration
 
 Upload TLS configuration file.
 
