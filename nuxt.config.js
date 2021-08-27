@@ -40,7 +40,7 @@ export default {
             { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
         ]
     },
 
@@ -149,7 +149,7 @@ export default {
                         'faSearch',
                         'faSpinner',
                         'faUser',
-						'faUserCircle',
+                        'faUserCircle',
                         'faLongArrowAltLeft',
                         'faLongArrowAltRight'
                     ]
@@ -177,38 +177,38 @@ export default {
      */
     router: {
         middleware: [],
-		base: process.env.NODE_ENV !== 'production' ? '/' : '/cnlc-docs-test/',
-		scrollBehavior: async (to, from, savedPosition) => {
-			if (savedPosition) {
-				return savedPosition;
-			}
-			
-			const findEl = async (hash, x = 0) => {
-				return (
-					document.querySelector(hash) ||
+        base: process.env.NODE_ENV !== 'production' ? '/' : '/cnlc-docs-test/',
+        scrollBehavior: async (to, from, savedPosition) => {
+            if (savedPosition) {
+                return savedPosition;
+            }
+
+            const findEl = async (hash, x = 0) => {
+                return (
+                    document.querySelector(hash) ||
 					new Promise((resolve) => {
-						if (x > 50) {
-							return resolve(document.querySelector('#app'));
-						}
-						setTimeout(() => resolve(findEl(hash, ++x || 1)), 100);
+					    if (x > 50) {
+					        return resolve(document.querySelector('#app'));
+					    }
+					    setTimeout(() => resolve(findEl(hash, ++x || 1)), 100);
 					})
-				);
-			};
-			
-			if (to.hash) {
-				let el = await findEl(to.hash);
-				if ('scrollBehavior' in document.documentElement.style) {
+                );
+            };
+
+            if (to.hash) {
+                const el = await findEl(to.hash);
+                if ('scrollBehavior' in document.documentElement.style) {
 				  	return window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
-				} else {
+                } else {
 				  	return window.scrollTo(0, el.offsetTop);
-				}
-			}	
-			
-			return { x: 0, y: 0 };
-		}
-	},
-	
-	generate: {
+                }
+            }
+
+            return { x: 0, y: 0 };
+        }
+    },
+
+    generate: {
         routes: () => {
             let paths = [];
             if (helpRoutes) {
@@ -219,12 +219,12 @@ export default {
                             route: `/help/${helpRoutes[path]}`,
                             payload: path
                         }]
-                    });                    
+                    });
                 }
-			}
+            }
             return paths;
-		}
-	},
+        }
+    },
 
     /**
      * Import variable overrides

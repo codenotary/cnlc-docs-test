@@ -2,79 +2,64 @@
 title: Creating a Ledger
 ---
 
--------
+The very first step in implementing a Ledger is to create it in the browser-based UI.  Part of that process includes generating the secure key to use with the SDK. The key is required to access the Ledger from your code.
 
-The very first step in implementing a ledger is to create it in the browser-based UI.  Part of that process includes generating the secure key to use with the SDK. The key is required to access the ledger from your code. 
+###### _Topics on this page..._
 
-_Topics on this page..._
+- [To Create a Ledger](/help/create-ledger#to-create-a-ledger)
 
-- [To create a ledger](help/create-ledger#to-create-a-ledger)
+- [Errors Creating a Ledger](/help/create-ledger#errors-creating-a-ledger)
 
-- [Errors creating a ledger](help/create-ledger#errors-creating-a-ledger)
+## To Create a Ledger
 
-## To create a ledger
+New Ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add Ledger** button.
 
-New ledgers are created in the web UI from either the _Ledgers_ page or the _Home_ page by clicking the **+ Add ledger** button. 
+<help-image src="/alt_ledger_plain.png" alt="" ></help-image>
 
-<v-img src="/alt_ledger_plain.png" alt="" align="left"></v-img>
-
-
-![](assets\images\alt_ledger_plain.png)
-
-Creating a ledger takes just a few steps -- name your ledger, add optional tags, and generate an API key.
+Creating a Ledger takes just a few steps - name your Ledger, add optional tags, and generate an API key.
 
 1. **Navigate to the *Ledger Page***  From the left-side navigation bar, select **Ledger** . The _Ledger_ page opens.
 
-2. Click the **+ Add ledger** button. The *Define Ledger* panel opens.
-   
-<v-img src="/alt_panell_defineledger.png" alt="" align="left"></v-img>
-   
-   ![](assets\images\alt_panell_defineledger.png)
-   
-   
-   
-3. **Enter a unique Ledger name** in the *Ledger name* field. 
-   Your ledger name appears in tabular views.  It must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  Note that you have the option to change the ledger name at any time.
+2. Click the **+ Add Ledger** button. The *Define Ledger* panel opens.
 
-4. **Add Data Labels**  (_optional_) Under *Data Labelling* you can create one or more labels to associate with the ledger.  Enter a plain-text label and click + or hit the Enter key to add it.
+<help-image src="/alt_panell_defineledger.png" alt="" ></help-image>
+
+3. **Enter a unique Ledger name** in the *Ledger name* field.
+   Your Ledger name appears in tabular views.  It must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  Note that you have the option to change the Ledger name at any time.
+
+4. **Add Data Labels**  (_optional_) Under *Data Labelling* you can create one or more labels to associate with the Ledger.  Enter a plain-text label and click + or hit the Enter key to add it.
 
    Click the X on any label to remove it.
 
-   Labels are user-defined tags you can use to help categorize, group or otherwise track identifying aspects of the ledger. The remain associated with the ledger as metadata.
+   Labels are user-defined tags you can use to help categorize, group or otherwise track identifying aspects of the Ledger. The remain associated with the Ledger as metadata.
 
    Click the **Next step** button when you're ready to continue. The *Define API key* panel opens.
 
    *Click the **Previous step** button to return to the Define Ledger* panel.
 
-   <v-img src="/alt_panel_definekey_sm.png" alt="" align="left"></v-img>
+   <help-image src="/alt_panel_definekey_sm.png" alt="" ></help-image>
 
-
-   ![](assets\images\alt_panel_definekey_sm.png)
-
-
-
-
-5. **Enter a unique name for the API Key ** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').  
+5. **Enter a unique name for the API Key** in the API Key name field. The key name must be globally unique, and can contain only alphanumeric characters as well as dash and underscore ('-','_').
 
    The key name is simply an identifier that allows you to select it in other contexts.
 
-6. Click the **Next step** button when you're ready to continue. 
+6. Click the **Next step** button when you're ready to continue.
 
-   The *Summary* panel opens. 
-
-   ---
-
-   **NOTE**  If you have exceeded the total number of ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors creating a ledger](#/help/errors-creating-a-ledger) below.) 
+   The *Summary* panel opens.
 
    ---
 
-   Click the **Previous step** button to return to the *Define API key* panel. 
+   **NOTE**  If you have exceeded the total number of Ledgers allowed by your user license you will see an error when you click the **Next step** button on the *Define API Key* panel. (See [Errors Creating a Ledger](#/help/errors-creating-a-ledger) below.)
 
-## Errors creating a ledger
+   ---
+
+   Click the **Previous step** button to return to the *Define API key* panel.
+
+## Errors Creating a Ledger
 
 A red error message may pop up If the system can't validate or process an entry, or if your action exceed limits set by your user license.
 
-Most error messages explain in detail what the problem is. 
+Most error messages explain in detail what the problem is.
 
 ##### Illegal characters
 
@@ -82,17 +67,15 @@ Most text fields in the UI will accept numbers and letters, as well as dash and 
 
 ##### Duplicate name
 
-All ledger names and API key names must be unique across the entire system. Rename the ledger if this happens.
+All Ledger names and API key names must be unique across the entire system. Rename the Ledger if this happens.
 
 ##### License error
 
-<v-img src="/alt_err_lic.png" alt="" align="left"></v-img>
-
-##### ![](assets\images\alt_err_lic.png)
+<help-image src="/alt_err_lic.png" alt="" ></help-image>
 
 CodeNotary offers a variety of licensing options.
 
-**License Options** 
+**License Options**
 
 - **Free Edition**: *1 Ledger*
 - **Virtual Appliance Edition**: *5 Ledgers*
@@ -100,4 +83,4 @@ CodeNotary offers a variety of licensing options.
 
 Please contact [sales@codenotary.com](mailto:sales@codenotary.com) for help finding the right license for your needs.
 
-<prev-next class="_margin-top-1" :prev="{ url: '/overall-status', lable: 'Home -- System Status' }" next="{ url: '/manage-ledger', lable: 'Managing a Ledger' }"></prev-next>
+<ui-prev-next class="mt-1" :prev="{ url: '/overall-status', label: 'Home - System Status' }" :next="{ url: '/manage-ledger', label: 'Managing a Ledger' }"></ui-prev-next>

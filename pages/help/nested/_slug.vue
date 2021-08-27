@@ -4,6 +4,6 @@ import { fetchHelpPage } from '@/helpers/fetchHelpPage';
 
 export default {
     extends: HelpPageMixin,
-    asyncData: fetchHelpPage('help', 'index')
+    asyncData: fetchHelpPage('help/nested')
 };
 </script>

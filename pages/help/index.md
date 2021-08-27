@@ -1,25 +1,7 @@
 ---
-title: Welcome to CodeNotary Ledger Compliance!
+title: Welcome to CodeNotary Cloud!
+index: true
 ---
-
-
-
-![](C:\Users\David\Downloads\Metatrope\clients\ntry\assets\images\alt_help_sm.png)
-
-<v-img src="/alt_help_sm.png" alt=""></v-img>
-
-
-
-# About Help Pages
-
-CodeNotary Ledger Compliance® (CNLC) is a light-weight, high-performance ledger platform. It provides two points of user access -- a browser-based UI (the CNLC UI) for creation and management of ledgers, and a straightforward SDK that allows your applications to write immutable, cryptographically verifiable transactions to your ledgers.
-
-These help pages address the process of creating and managing ledgers in the CNLC web-UI, as well as the use of our SDK to write and query ledger entries from your code.  
-
-The procedures for both configuration and use (through the SDK) are identical whether your instance is deployed in the cloud or on premises.  
-
-# Help Topics 
-
 
 #### Overview
 
@@ -28,21 +10,20 @@ The procedures for both configuration and use (through the SDK) are identical wh
 
 #### Ledger Management
 
-- [Home -- System Status](/help/overall-status)
-  _How to use the CNLC UI to understand the system-wide status of your ledgers._
+- [Home - System Status](/help/overall-status)
+  _How to use the CNIL UI to understand the system-wide status of your Ledgers._
 
 - [Creating a Ledger](/help/create-ledger)
-  _How to create a ledger in the web-based CNLC UI._
+  _How to create a Ledger in the web-based CNIL UI._
 - [Managing a Ledger](/help/manage-ledger)
-  _How to manage existing ledgers in the web-based CNLC UI._
+  _How to manage existing Ledgers in the web-based CNIL UI._
 
 #### Ledger Transactions
 
-- [Using the SDK](/help/use-ledger)
-_Writing ledger entries, querying a ledger from your applications._
-  
-- [Query Ledger data](/help/query-ledger)
-  _Accessing existing ledger entries._
+- [Using the SDK](/help/use-ledger)  _Writing Ledger entries, querying a ledger from your applications._
+
+- [Query Ledger Data](/help/query-ledger)
+  _Accessing existing Ledger entries._
 
 #### Admin
 
@@ -61,8 +42,7 @@ For additional assistance with any topic, please don't hesitate to contact us by
 
 ---------------------------------
 
-Copyright © 2020 CodeNotary, Inc. All rights reserved. 
+Copyright © 2021 CodeNotary, Inc. All rights reserved.
 
-<v-img src="/alt_logo.png" alt="" align="left"> </v-img>
-
+<the-logo className="help--logo logo-wrapper fill-width no-transation" size="normal"></the-logo>
 

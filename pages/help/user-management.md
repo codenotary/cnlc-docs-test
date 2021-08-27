@@ -2,63 +2,57 @@
 title: Managing User Accounts
 ---
 
--------
 The *Users* page lets administrators create new users, change parameters for existing users, or delete them.
 
 ###### _Topics on this page..._
 
-- [Creating new users](help/user-management#creating-new-users)
+- [Creating New Users](/help/user-management#creating-new-users)
 
-- [Managing existing users](help/user-management#managing-existing-users)
+- [Managing Existing Users](/help/user-management#managing-existing-users)
 
-## Creating new users
+## Creating New Users
 
 To add a user to the system, you'll need their email address, desired user name, their role in the system and, optionally, their first and last name.
 
-<v-img src="/alt_usradmin_plain.png" alt="" align="left"></v-img>
+<help-image src="/alt_usradmin_plain.png" alt="" ></help-image>
 
-![](assets\images\alt_usradmin_plain.png)
-
-### Role-based permissions
+### Role-based Permissions
 
 Note that some limitations to user administration are imposed by your assign role.
 
-System Admin - Full read-write access to all functions in the UI.
+- System admin - Full read-write access to all functions in the UI.
+- Ledger administrator - Read-write access to user functions in the UI, but no access to admin functions.
+- Auditor - Read-only permissions on Ledgers and their contents
 
-Admin  - Limited read-write access to all functions in the UI.
+### To Create a New User
 
-Ledger manager  - Read-write access to user functions in the UI, but no access to admin functions.
-
-### To create a new user  
-
-1. Go to the *Users* page 
+1. Go to the *Users* page
 2. Click the **Create user** button in the upper right.
 3. Complete the form by filling in the following fields:
    - User name
-   
+
    - email address
-   
+
    - password
-   
+
    - first name (optional)
-   
+
    - last name (optional)
-     <v-img src="/alt_updprofile_dlog.png" alt="" align="left"></v-img>
-     
-     ![](assets\images\alt_updprofile_dlog.png)
+
+	<help-image src="/alt_updprofile_dlog.png" alt="" ></help-image>
+
 4. Select a role from the User role drop down menu.
 5. Click the **Create user** button.
 
 You can change any of these parameters after creating a user, provided you have appropriate permissions.
 
-## Managing existing users
+## Managing Existing Users
 
-You can quickly change or delete a user's account from the options popup menu by clicking the gear icon in the users row. 
+You can quickly change or delete a user's account from the options popup menu by clicking the gear icon in the users row.
 
-<v-img src="/alt_usradmin_menu.png" alt="" align="left"></v-img>
-![](assets\images\alt_usradmin_menu.png)
+<help-image src="/alt_usradmin_menu.png" alt="" ></help-image>
 
-##### User management options 
+##### User Management Options
 
 | Option              | Action                                                       |
 | ------------------- | ------------------------------------------------------------ |
@@ -67,6 +61,6 @@ You can quickly change or delete a user's account from the options popup menu by
 | Regenerate Password | Algorithmically generate a new password.                     |
 | Delete user         | Completely remove the user account from the system. This cannot be undone. |
 
-All options open a simple text form that lets you enter changes. 
+All options open a simple text form that lets you enter changes.
 
-<prev-next class="_margin-top-1" :prev="{ url: '/use-audit-reports, lable: 'Audit Reports' }" next="{ url: '/messages', lable: 'Messages and Notifications' }"></prev-next>
+<ui-prev-next class="mt-1" :prev="{ url: '/use-audit-reports', label: 'Audit Reports' }" :next="{ url: '/messages', label: 'Messages and Notifications' }"></ui-prev-next>

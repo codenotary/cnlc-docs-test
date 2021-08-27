@@ -27,6 +27,7 @@ export default {
 
 article.help-section {
     padding-right: $spacer-4;
+    background: transparent;
 
     .nuxt-content {
         display: grid;
