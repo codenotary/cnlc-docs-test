@@ -44,5 +44,5 @@ For additional assistance with any topic, please don't hesitate to contact us by
 
 Copyright © 2021 CodeNotary, Inc. All rights reserved.
 
-<the-logo className="help--logo logo-wrapper fill-width no-transation" size="normal"></the-logo>
+<ui-logo className="help--logo logo-wrapper fill-width no-transation" size="normal"></-logo>
 

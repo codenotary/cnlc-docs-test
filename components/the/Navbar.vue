@@ -1,7 +1,7 @@
 <template>
     <i-navbar id="navbar" fluid :collapse="false" :class="{ mini }">
         <i-navbar-brand :to="localePath({ name: 'index' })">
-            <logo :size="mini ? 'normal' : 'small'" :icon="mini" />
+            <ui-logo :size="mini ? 'normal' : 'small'" :icon="mini" />
         </i-navbar-brand>
         <i-hamburger-menu class="_visible-md-and-down" :active="collapsed" @click="onCollapse" />
     </i-navbar>

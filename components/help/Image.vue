@@ -58,7 +58,7 @@ export default {
     methods: {
         imgSrc() {
             try {
-                return require(`~/assets/images/${this.src}`);
+                return require(`~/assets/images/help${this.src}`);
             } catch (err) {
                 console.error(err);
                 return null;

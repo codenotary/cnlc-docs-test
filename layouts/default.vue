@@ -1,15 +1,15 @@
 <template>
     <i-layout id="default-layout">
-        <Banner
+        <TheBanner
             v-if="banner && banner.show"
             :title="banner && banner.title"
             :subtitle="banner && banner.subtitle"
         />
         <i-layout-header id="layout-header" class="_padding-0" :class="{ 'with-banner': banner.show }">
-            <navbar />
+            <TheNavbar />
         </i-layout-header>
         <i-layout vertical>
-            <sidebar :class="{ 'with-banner': banner.show }" />
+            <TheSidebar :class="{ 'with-banner': banner.show }" />
             <i-layout-content id="layout-content" :class="{ mini, collapsed, 'with-banner': banner.show }">
                 <i-container fluid>
                     <i-row>

@@ -1,8 +1,8 @@
 <template>
     <article class="help-section">
-        <page-heading :title="article.title" :icon="['fas', 'question-circle']" />
+        <ThePageHeading :title="article.title" :icon="['fas', 'question-circle']" />
 
-        <help-breadcrumbs v-if="showBreadcrumbs" :data="articles" class="_margin-top-1" />
+        <TheHelpBreadcrumbs v-if="showBreadcrumbs" :data="articles" class="_margin-top-1" />
 
         <i-card class="_margin-top-1">
             <nuxt-content :document="article" />

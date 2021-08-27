@@ -69,28 +69,27 @@ export default {
 
 <style lang="scss">
 section#UiPrevNext {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: 1;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: $spacer-2 !important;
-	padding-top: $spacer-2 !important;
-	border-top: 1px solid $border-color-light;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px !important;
+    padding-top: 16px !important;
 
-	.prev,
-	.next {
-		width: auto;
-		min-width: 100px;
-		align-items: center;
-	}
+    .prev,
+    .next {
+        width: auto;
+        min-width: 100px;
+        align-items: center;
+    }
 
-	.prev {
-		justify-content: flex-start;
-	}
+    .prev {
+        justify-content: flex-start;
+    }
 
-	.next {
-		justify-content: flex-end;
-	}
+    .next {
+        justify-content: flex-end;
+    }
 }
 </style>

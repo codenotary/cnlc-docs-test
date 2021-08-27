@@ -39,7 +39,7 @@ Note that some limitations to user administration are imposed by your assign rol
 
    - last name (optional)
 
-	<help-image src="/alt_updprofile_dlog.png" alt="" ></help-image>
+    <help-image src="/alt_updprofile_dlog.png" alt="" ></help-image>
 
 4. Select a role from the User role drop down menu.
 5. Click the **Create user** button.
