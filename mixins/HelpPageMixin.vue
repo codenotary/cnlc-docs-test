@@ -48,7 +48,7 @@ article.help-section {
         }
     }
 
-    .help--logp {
+    .help--logo {
         img {
             margin: 0 !important;
         }
