@@ -172,6 +172,14 @@ export default {
     },
 
     /**
+    ** Set up environment variables
+    ** See https://nuxtjs.org/api/configuration-env
+    */
+    env: {
+        V_VERSION: process.env.V_VERSION || '2.2.4'
+    },
+
+    /**
      * Set authenticated as default middleware
      * Doc: https://nuxtjs.org/guides/configuration-glossary/configuration-router
      */
@@ -198,9 +206,9 @@ export default {
             if (to.hash) {
                 const el = await findEl(to.hash);
                 if ('scrollBehavior' in document.documentElement.style) {
-                      return window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
+                    return window.scrollTo({ top: el.offsetTop, behavior: 'smooth' });
                 } else {
-                      return window.scrollTo(0, el.offsetTop);
+                    return window.scrollTo(0, el.offsetTop);
                 }
             }
 

@@ -48,6 +48,12 @@ article.help-section {
         }
     }
 
+    .help--logp {
+        img {
+            margin: 0 !important;
+        }
+    }
+
     img {
         display:block;
         max-width: 100%;
