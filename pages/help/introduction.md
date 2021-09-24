@@ -12,9 +12,9 @@ If you're new to the CodeNotary Cloud platform, taking a moment to review the to
 
 ## What is CodeNotary Cloud?
 
-CodeNotary Cloud (the 'CNIL Platform') is designed around the concept of immutability. That simply means that Ledger entries cannot be modified or deleted after they're posted.
+CodeNotary Cloud (the 'Codenotary Cloud Platform') is designed around the concept of immutability. That simply means that Ledger entries cannot be modified or deleted after they're posted.
 
-Like Blockchain, CNIL Ledger entries are protected by both the architecture and encryption. Unlike Blockchain, CNIL doesn't require transactions to be extensively replicated across network nodes.
+Like Blockchain, Codenotary Cloud ledger entries are protected by both the architecture and encryption. Unlike Blockchain, Codenotary Cloud doesn't require transactions to be extensively replicated across network nodes.
 
 That means users get the benefits of a secure Ledger packaged in architecture that far outperforms the speed of Blockchain read and write transactions. These performance trade-offs often make sense in environments that require secure transaction logs, but don't necessarily require the resource-intensive complexity of full Blockchain implementations.
 
@@ -29,7 +29,7 @@ The application of secure Ledgers extends well beyond financial transactions. Bu
 * Digital objects identification (digital checksum)
 * Store log streams (i. e. access logs)
 
-The CNIL platform provides additional security for key transactions in any business while enabling compliance with data privacy and security regulations like PCI-DSS-10.
+The Codenotary Cloud platform provides additional security for key transactions in any business while enabling compliance with data privacy and security regulations like PCI-DSS-10.
 
 ## Major Components
 
@@ -53,15 +53,15 @@ CodeNotary Cloud uses an append-only data structure to store inserts and updates
 
 ### User Interface
 
-The user interface is a browser-based GUI. It's where you create and manage Ledgers, create API keys, view statistics, run audit reports, and access various administrative functions.
+The user interface is a browser-based GUI. It's where you create and manage Ledgers, create Signer IDs, view statistics, run audit reports, and access various administrative functions.
 
-<help-image src="/alt_ledger_plain.png" alt="" > </help-image>
+<help-image src="/alt_ledger_list.jpg" alt="Ledger list" > </help-image>
 
 ### SDK
 
 Your applications with through CodeNotary Ledgers through provided SDKs and plugins. You can post new entries as well as cryptographically verify and query data from Ledger.
 
-Each SDK and plugin has its own API key to be used to authenticate against CodeNotary Cloud.
+Each SDK and plugin has its own Signer ID to be used to authenticate against Codenotary Cloud.
 
 ##### SDK Language Support
 
@@ -82,7 +82,7 @@ The following integrations are available:
 
 - Ledgers provide secure, immutable storage appropriate sensitive or mission-critical data.
 
-- Ledgers are set up and configured on the CNIL web UI.
+- Ledgers are set up and configured on the Codenotary Cloud web UI.
 
 - Transactions are written to the Ledger as key-value pairs, using the provided SDK.
 
