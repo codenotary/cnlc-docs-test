@@ -1,5 +1,5 @@
 ---
-title: Welcome to CodeNotary Cloud!
+title: Welcome to Codenotary Cloud!
 index: true
 ---
 

@@ -2,17 +2,17 @@
 title: Understanding the System
 ---
 
-If you're new to the CodeNotary Cloud platform, taking a moment to review the topics on this page will make it easier to understand other help content.
+If you're new to the Codenotary Cloud platform, taking a moment to review the topics on this page will make it easier to understand other help content.
 
 ###### _Topics on this page..._
 
-- [What is CodeNotary Cloud?](/help/introduction#what-is-codenotary-cloud)
+- [What is Codenotary Cloud?](/help/introduction#what-is-codenotary-cloud)
 - [What are some typical use cases?](/help/introduction#what-are-some-typical-use-cases)
 - [Major components](/help/introduction#major-components)
 
-## What is CodeNotary Cloud?
+## What is Codenotary Cloud?
 
-CodeNotary Cloud (the 'Codenotary Cloud Platform') is designed around the concept of immutability. That simply means that Ledger entries cannot be modified or deleted after they're posted.
+Codenotary Cloud (the 'Codenotary Cloud Platform') is designed around the concept of immutability. That simply means that Ledger entries cannot be modified or deleted after they're posted.
 
 Like Blockchain, Codenotary Cloud ledger entries are protected by both the architecture and encryption. Unlike Blockchain, Codenotary Cloud doesn't require transactions to be extensively replicated across network nodes.
 
@@ -33,7 +33,7 @@ The Codenotary Cloud platform provides additional security for key transactions 
 
 ## Major Components
 
-Whether deployed on-premises or in the cloud, CodeNotary Cloud provides you a browser-based dashboard that can be used to manage the software:
+Whether deployed on-premises or in the cloud, Codenotary Cloud provides you a browser-based dashboard that can be used to manage the software:
 
 - [Core platform](/help/introduction#core-platform)
 - [User Interface](/help/introduction#user-interface)
@@ -41,7 +41,7 @@ Whether deployed on-premises or in the cloud, CodeNotary Cloud provides you a br
 
 ### Core platform
 
-The core CodeNotary Cloud platform manages Ledger data, security, and the API gateway access through our SDK.
+The core Codenotary Cloud platform manages Ledger data, security, and the API gateway access through our SDK.
 
 Users interact with the platform in two ways: through a browser-based UI, and a programming interface provided by CodeNotary SDKs
 
@@ -49,7 +49,7 @@ The user interface provides for dashboard, administration and configuration func
 
 The programming interface provided by our SDKs lets you perform Ledger transactions with the core.
 
-CodeNotary Cloud uses an append-only data structure to store inserts and updates along the correct timestamp and data sequence. Powerful query capabilities allow for a fast data search and immediate inclusion proof.
+Codenotary Cloud uses an append-only data structure to store inserts and updates along the correct timestamp and data sequence. Powerful query capabilities allow for a fast data search and immediate inclusion proof.
 
 ### User Interface
 

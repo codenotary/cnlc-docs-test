@@ -73,7 +73,7 @@ All Ledger names and Signer IDs must be unique across the entire system. Rename 
 
 <help-image src="/alt_err_license.jpg" alt="Error license" ></help-image>
 
-CodeNotary offers a variety of licensing options.
+Codenotary offers a variety of licensing options.
 
 **License Options**
 
